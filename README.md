@@ -8,7 +8,7 @@ Use python 3.9+
 pip install -r requirements
 ```
 
-## Midi Data
+## MIDI Data
 
 There's a Hugging Face Dataset that can be used for development.
 
