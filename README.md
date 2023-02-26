@@ -35,6 +35,7 @@ df = pd.DataFrame(record)
 
 1. Use matplotlib to create charts.
 2. Do not commit any matplotlib figures - use Pull Requests to describe progress and show charts there.
+3. Join [piano for ai discord channel](https://discord.gg/67bHMBZTaT) to discuss anything.
 
 ### Performance Metrics
 
