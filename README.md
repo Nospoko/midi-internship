@@ -1,4 +1,4 @@
-# Data-Science Internship Program @ Nospoko: MIDI Analytics
+# Data-Science Internship @ Nospoko: MIDI Analytics
 
 ## Setup
 
@@ -10,7 +10,7 @@ pip install -r requirements
 
 ## Midi Data
 
-There's a Hugging Face dataset that can be used for development.
+There's a Hugging Face Dataset that can be used for development.
 
 ```python
 from datasets import load_dataset
@@ -19,7 +19,7 @@ dataset = load_dataset("roszcz/internship-midi-data-science", split="train")
 ```
 
 This dataset contains sample data from the [Piano For AI](https://pianofor.ai) project.
-Each record holds information about a pianist-instrument interaction.
+Each record holds information about pianist-instrument interactions.
 Most of the tasks below require only the `notes` data, which is a list of events describing the pianists
 actions on the keyboard (which key was played, with what force/velocity, for how long).
 To read this data into a pandas data frame:
@@ -33,17 +33,20 @@ df = pd.DataFrame(record)
 
 ## Data Science Tasks
 
+1. Use matplotlib to create charts.
+2. Do not commit any matplotlib figures - use Pull Requests to describe progress and show charts there.
+
 ### Performance Metrics
 
 #### Speed
 
-1. For a given record, create a chart time vs speed.
+1. For a given record, create a chart of time vs speed.
     - If the record is longer than 120 seconds, use minutes as the time unit.
     - Use "notes played per second" as the speed unit.
 
 #### Chords
 
-1. For a given record, create a chart time vs number of chords played.
+1. For a given record, create a chart of time vs number of chords played.
 2. Based on chord detection developed for 1., crate a table with number of occurances of chords.
     - Try to use [chorder](https://github.com/joshuachang2311/chorder) to assign names to detected notes.
 
