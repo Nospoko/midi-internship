@@ -44,6 +44,7 @@ df = pd.DataFrame(record)
 1. For a given record, create a chart of time vs speed.
     - If the record is longer than 120 seconds, use minutes as the time unit.
     - Use "notes played per second" as the speed unit.
+2. Create a chart showing number of notes pressed at the same time
 
 #### Chords
 
