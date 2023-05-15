@@ -28,7 +28,7 @@ To read this data into a pandas data frame:
 import pandas as pd
 
 record = dataset[0]
-df = pd.DataFrame(record)
+df = pd.DataFrame(record["notes"])
 ```
 
 ## Data Science Tasks
