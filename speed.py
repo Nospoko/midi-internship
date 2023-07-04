@@ -20,35 +20,29 @@ def get_time_vs_speed(record):
 
     if (max(end) - min(start)) > 120:
         step = 60
-        unit = "min"
     else:
         step = 1
-        unit = "sec"
 
-    notes_in_time = pd.DataFrame(
-        df.groupby(
-            pd.cut(
-                df["start"], range(int(min(df["start"])), int(max(df["start"])), step)
-            )
-        ).pitch.count()
-    )
-    notes_in_time.index = np.arange(
-        int(min(start)) + 1, len(notes_in_time) + int(min(start)) + 1
-    )
-    notes_in_time.index.name = f"{unit}_number"
-    notes_in_time.rename(columns={"pitch": "number_of_notes_played"}, inplace=True)
+    bins = range(df["start"].min().astype(int), df["start"].max().astype(int), step)
+    notes_in_time = df.groupby(pd.cut(df["start"], bins))["pitch"].count().reset_index()
+    notes_in_time.columns = ["time_range_in_sec", "number_of_notes_played"]
 
     return notes_in_time
 
 
 def plot_chart_time_vs_speed(notes_in_time):
-    unit = notes_in_time.index.name.split("_")[0]
-    step = 1 if unit == "sec" else 60
-
+    interval = notes_in_time.time_range_in_sec[0]
+    if interval.right - interval.left == 60:
+        unit = 'min'
+        step = 60
+    else:
+        unit = 'sec'
+        step = 1
+   
     f, ax = plt.subplots(1, 1, figsize=[14, 6])
-    ax.scatter(
-        x=notes_in_time.index,
-        y=notes_in_time["number_of_notes_played"].values / step,
+    ax.plot(
+        notes_in_time.index,
+        notes_in_time["number_of_notes_played"].values / step,
     )
     ax.set_xlabel(f"Time ({unit})")
     ax.set_ylabel("Notes played per second")
@@ -63,48 +57,51 @@ def plot_chart_time_vs_speed(notes_in_time):
 NOTES PRESSED AT THE SAME TIME
 """
 
+# df = pd.DataFrame(record["notes"])
 
-def get_notes_idxs_pressed_simultaneously(record):
-    df = pd.DataFrame(record["notes"])
+
+def get_notes_idxs_pressed_simultaneously(df, threshold=0.05):
     start = df.start.values
 
-    threshold = 0.05  # can be adjust/changed, eg. to 0.1
-    pressed_simultaneously = []
+    records = []
     it = 0
 
     while it < len(df):
         t_0 = start[it]
-        where_close = (start[it + 1 :] - t_0) < threshold
+        where_close = (start[it + 1: it + 11] - t_0) < threshold
         n_close = np.sum(where_close)
 
         if n_close > 0:
-            chord = np.arange(it, it + n_close + 1)
+            idxs = np.arange(it, it + n_close + 1)
             it += n_close + 1
-            pressed_simultaneously.append(list(chord))
+
+            record = {
+                "pressed_simultaneously": list(idxs),
+                "time": df.iloc[idxs].start.values.mean(),
+                "pitches": list(df.iloc[idxs].pitch.values),
+            }
+            records.append(record)
         else:
             it += 1
+    pressed_simultaneously_df = pd.DataFrame(records)
+    return pressed_simultaneously_df
 
-    return pressed_simultaneously
 
-
-def plot_chart_notes_pressed_at_the_same_time(df, pressed_simultaneously):
-    x_time, y_notes = [], []
-
-    for idxs in pressed_simultaneously:
-        t = df.iloc[idxs].start.values.mean()
-        n = len(idxs)
-        x_time.append(t)
-        y_notes.append(n)
+def plot_chart_notes_pressed_at_the_same_time(pressed_simultaneously_df):
+    x_chart = pressed_simultaneously_df.time.values
+    y_chart = [
+        len(el) for el in pressed_simultaneously_df.pressed_simultaneously.values
+    ]
 
     f1, ax = plt.subplots(1, 1, figsize=[16, 6])
-    ax.scatter(x_time, y_notes)
+    ax.scatter(x_chart, y_chart)
     ax.set_title("Number of notes pressed at the same time vs Time")
     ax.set_xlabel("Time (sec)")
     ax.set_ylabel("Number of notes")
     f1.tight_layout()
 
     f2, ax = plt.subplots(1, 1, figsize=[14, 6])
-    ax.hist(y_notes, bins=np.arange(2, max(y_notes) + 1, 0.5) - 0.25)
+    ax.hist(y_chart, bins=np.arange(2, max(y_chart) + 1, 0.5) - 0.25)
     ax.set_title("Histogram: number of notes pressed at the same time")
     f2.tight_layout()
 
