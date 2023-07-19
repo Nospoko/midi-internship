@@ -58,7 +58,7 @@ Here are some basic guidelines:
 5. Don't feel obliged to solve everything, even a single algorithm is enough to open a PR.
 6. Do not commit matplotlib figures as files - instead, embed images within your Pull Request descriptions
 
-## Challenge Objectives
+# Challenge Objectives
 
 Difficulty level: easy
 
