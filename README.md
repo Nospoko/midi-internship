@@ -104,7 +104,7 @@ Here are some basic guidelines:
 3. Write code that is PEP8 compliant, readable, and sparks joy.
 4. Join the [Piano For AI discord channel](https://discord.gg/67bHMBZTaT) to ask questions or discuss the project.
 5. Don't feel obliged to solve everything, even a single algorithm is enough to open a PR.
-6. Do not commit matplotlib figures as files - instead, embed images within your Pull Request descriptions
+6. Do not commit matplotlib figures as files - instead, embed images within your Pull Request descriptions.
 
 ## Development environment setup
 
