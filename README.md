@@ -1,12 +1,10 @@
-# Data-Science Internship @ Nospoko: MIDI Analytics
+# Data-Science Internship @ Piano For AI: MIDI Analytics
 
-## Setup
+## MIDI
 
-Use python 3.9+
-
-```sh
-pip install -r requirements
-```
+Don't worry if MIDI format is something strange to you. It is a very powerful protocol, and there are myriad
+things you can do with it. We are doing something very specific in relation to piano music. To get a better
+understanding about how to work with MIDI in this project, see [MIDI](./MIDI.md).
 
 ## MIDI Data
 
@@ -19,9 +17,11 @@ dataset = load_dataset("roszcz/internship-midi-data-science", split="train")
 ```
 
 This dataset contains sample data from the [Piano For AI](https://pianofor.ai) project.
-Each record holds information about pianist-instrument interactions.
-Most of the tasks below require only the `notes` data, which is a list of events describing the pianists
-actions on the keyboard (which key was played, with what force/velocity, for how long).
+Each record in the dataset is a 1 - 2h recording of a practice session from various musicians.
+
+Most of the tasks below require only the `notes` column, which for every record holds a list of events describing the pianists
+actions on the keyboard (which key was played, with what force/velocity, for how long, when).
+
 To read this data into a pandas data frame:
 
 ```python
@@ -29,6 +29,17 @@ import pandas as pd
 
 record = dataset[0]
 df = pd.DataFrame(record["notes"])
+print(df.head())
+```
+
+To do this with a MIDI library we are maintaining:
+
+```python
+import fortepyan as ff
+
+record = dataset[137]
+piece = ff.MidiPiece.from_huggingface(record)
+print(piece.df.head())
 ```
 
 ## Data Science Tasks
@@ -67,6 +78,14 @@ df = pd.DataFrame(record["notes"])
 
 1. Given a sequence of notes, find similar sequences inside all available records. Sort by similarity.
     - Propose at least 2 different similarity metrics to compare sequences.
+  
+## Development environment setup
+
+Use python 3.9+
+
+```sh
+pip install -r requirements
+```
 
 ### Code Style
 
