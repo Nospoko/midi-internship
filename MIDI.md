@@ -31,7 +31,7 @@ In music production, it's a popular practice to represent MIDI recordings in for
 
 <img width="789" alt="image" src="https://github.com/Nospoko/midi-internship/assets/8056825/6b8b73f0-0080-433a-861a-32fd554c098d">
 
-Here, every rectangle is a note, color hue depends on velocity. The background pattern follows the sequence of white and black keys on a piano.
+Here, every rectangle is a note, color hue depends on velocity. The background pattern follows the sequence of white and black keys on a piano. Vertical sticks also represent velocity, on a 0-127 scale.
 
 ### Animation
 
@@ -41,7 +41,7 @@ https://github.com/Nospoko/midi-internship/assets/8056825/02ba5937-3aa1-4b64-9ba
 
 ### Fortepyan
 
-We developed our own library to work with piano recordings in MIDI format: [fortepyan](https://github.com/nospoko/fortepyan)
+We developed our own library to work with piano recordings in MIDI format: [fortepyan](https://github.com/nospoko/fortepyan).
 Here's the code to recreate everything from this document:
 
 ```python
