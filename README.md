@@ -44,21 +44,7 @@ print(piece.df.head())
 
 # Data Science Internship Challenge
 
-## Solution presentation
-
-Fork the repository to your account and work on your solutions there. When you are ready open a Pull Request to this repository.
-We will provide feedback and a code review in an iterative process - you can update your code after opening the PR as much as you need.
-
-Here are some basic guidelines:
-
-1. Make your presentation clear.
-2. Use matplotlib to create charts.
-3. Write code that is PEP8 compliant, readable, and sparks joy.
-4. Join the [Piano For AI discord channel](https://discord.gg/67bHMBZTaT) to ask questions or discuss the project.
-5. Don't feel obliged to solve everything, even a single algorithm is enough to open a PR.
-6. Do not commit matplotlib figures as files - instead, embed images within your Pull Request descriptions
-
-# Challenge Objectives
+# Objectives
 
 Difficulty level: easy
 
@@ -105,6 +91,20 @@ Difficulty level: hard
     - Propose at least 2 different similarity metrics to compare sequences.
 
 ---
+
+## Solution presentation
+
+Fork the repository to your account and work on your solutions there. When you are ready open a Pull Request to this repository.
+We will provide feedback and a code review in an iterative process - you can update your code after opening the PR as much as you need.
+
+Here are some basic guidelines:
+
+1. Make your presentation clear.
+2. Use matplotlib to create charts.
+3. Write code that is PEP8 compliant, readable, and sparks joy.
+4. Join the [Piano For AI discord channel](https://discord.gg/67bHMBZTaT) to ask questions or discuss the project.
+5. Don't feel obliged to solve everything, even a single algorithm is enough to open a PR.
+6. Do not commit matplotlib figures as files - instead, embed images within your Pull Request descriptions
 
 ## Development environment setup
 
