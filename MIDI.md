@@ -4,6 +4,8 @@ __Musical Instrument Digital Interface__ is a technical standard that enables el
 and other devices to communicate with each other. It allows these devices to transmit information about musical notation,
 pitch, velocity, and control signals for parameters such as volume, vibrato, and audio panning.
 
+### MIDI & Electric Pianos
+
 In piano music, MIDI allows musicians to record performances in a structured, tabular, and computer-friendly format.
 For the purpose of this project, we load this data into `pd.DataFrame`:
 
