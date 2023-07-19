@@ -94,7 +94,7 @@ Difficulty level: hard
 
 ## Solution presentation
 
-Fork the repository to your account and work on your solutions there. When you are ready open a Pull Request to this repository.
+Fork this repository to your account and work on your solutions there. When you are ready open a Pull Request to this repository.
 We will provide feedback and a code review in an iterative process - you can update your code after opening the PR as much as you need.
 
 Here are some basic guidelines:
