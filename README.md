@@ -8,7 +8,7 @@ understanding about how to work with MIDI in this project, see [MIDI](./MIDI.md)
 
 ## MIDI Data
 
-There's a Hugging Face Dataset that can be used for development.
+Here's a Hugging Face Dataset that should be used for algorithm development.
 
 ```python
 from datasets import load_dataset
@@ -54,9 +54,9 @@ Here are some basic guidelines:
 1. Make your presentation clear.
 2. Use matplotlib to create charts.
 3. Write code that is PEP8 compliant, readable, and sparks joy.
-4. Don't feel obliged to solve everything, even a single algorithm is enough to open a PR.
-5. Do not commit matplotlib figures as files - instead, embed images within your Pull Request descriptions
-6. Join the [Piano For AI discord channel](https://discord.gg/67bHMBZTaT) to ask questions or discuss the project.
+4. Join the [Piano For AI discord channel](https://discord.gg/67bHMBZTaT) to ask questions or discuss the project.
+5. Don't feel obliged to solve everything, even a single algorithm is enough to open a PR.
+6. Do not commit matplotlib figures as files - instead, embed images within your Pull Request descriptions
 
 ## Challenge Objectives
 
