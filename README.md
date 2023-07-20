@@ -94,7 +94,7 @@ Difficulty level: hard
 
 ## Solution presentation
 
-Fork this repository to your account and work on your solutions there. When you are ready open a Pull Request to this repository.
+Fork this repository to your account and work on your solutions there. When you are ready open a Pull Request to this repository. Use the Pull Request description to present the results.
 We will provide feedback and a code review in an iterative process - you can update your code after opening the PR as much as you need.
 
 Here are some basic guidelines:
@@ -104,7 +104,8 @@ Here are some basic guidelines:
 3. Write code that is PEP8 compliant, readable, and sparks joy.
 4. Join the [Piano For AI discord channel](https://discord.gg/67bHMBZTaT) to ask questions or discuss the project.
 5. Don't feel obliged to solve everything, even a single algorithm is enough to open a PR.
-6. Do not commit matplotlib figures as files - instead, embed images within your Pull Request descriptions.
+6. Results from your presentation should be easy to reproduce with the code you are commiting.
+7. Do not commit matplotlib figures as files - instead, embed images within your Pull Request descriptions.
 
 ## Development environment setup
 
