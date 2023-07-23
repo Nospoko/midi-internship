@@ -1,5 +1,5 @@
 default_language_version:
-  python: python3.9.10
+  python: python3.10.4
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.0.1
@@ -11,7 +11,7 @@ repos:
       - id: check-yaml
       - id: check-docstring-first
       - id: requirements-txt-fixer
-  - repo: https://gitlab.com/pycqa/flake8
+  - repo: https://github.com/PyCQA/flake8
     rev: 3.9.2
     hooks:
     - id: flake8
@@ -23,7 +23,7 @@ repos:
       args: [--line-length=130]
       additional_dependencies: ['click==8.0.4']
   - repo: https://github.com/pycqa/isort
-    rev: 5.10.1
+    rev: 5.12.0
     hooks:
     - id: isort
       name: isort

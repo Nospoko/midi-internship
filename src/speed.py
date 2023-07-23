@@ -1,12 +1,11 @@
-from typing import List
-
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 import math
 import argparse
 
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 from matplotlib.colors import LogNorm
+
 from utils import load_records
 
 
@@ -16,18 +15,19 @@ def notes_in_window(record: pd.DataFrame, window: float) -> pd.Series:
 
     Args:
         record (pd.DataFrame): record to resample
-        window (float): window [seconds] used to resample record 
+        window (float): window [seconds] used to resample record
 
     Returns:
         pd.Series: series with number of notes counted in each window
     """
 
     # resampling window, counting occurrences in each
-    notes_in_each_window = record.resample(f'{window}S', origin="start_day")["start"].count()
-    
+    notes_in_each_window = record.resample(f"{window}S", origin="start_day")["start"].count()
+
     return notes_in_each_window
 
-def plot_time_vs_speed(records: List[pd.DataFrame], window: float = None):
+
+def plot_time_vs_speed(records: list[pd.DataFrame], window: float = None):
     """
     Function which plots time [seconds or minutes] vs speed [notes per second]
 
@@ -38,7 +38,6 @@ def plot_time_vs_speed(records: List[pd.DataFrame], window: float = None):
 
     # creating subplots for each record
     fig, axes = plt.subplots(nrows=3, ncols=math.ceil(len(records) / 3), figsize=(10, 10))
-    fig.tight_layout(h_pad=3)
     # flattening axes to get easier access to them
     axes_flat = axes.flatten()
 
@@ -61,14 +60,16 @@ def plot_time_vs_speed(records: List[pd.DataFrame], window: float = None):
         axes_flat[i].plot(time, notes_per_second)
 
         # adding labels
-        unit_label = 'min' if minutes else 's'
+        unit_label = "min" if minutes else "s"
         axes_flat[i].set_xlabel(f"Time [{unit_label}]")
         axes_flat[i].set_ylabel("Notes per second")
         axes_flat[i].set_title(f"Record {i}")
 
+    fig.tight_layout()
     plt.show()
 
-def plot_notes_played_simultaneously(records: List[pd.DataFrame], threshold: float = 0.1):
+
+def plot_notes_played_simultaneously(records: list[pd.DataFrame], threshold: float = 0.1):
     """
     Plot time [minutes or seconds] vs notes played simultaneously
 
@@ -79,7 +80,6 @@ def plot_notes_played_simultaneously(records: List[pd.DataFrame], threshold: flo
 
     # creating subplots for each record
     fig, axes = plt.subplots(nrows=math.ceil(len(records) / 2), ncols=2, figsize=(20, 10))
-    fig.tight_layout(h_pad=5)
     # flattening axes to get easier access to them
     axes_flat = axes.flatten()
 
@@ -92,20 +92,27 @@ def plot_notes_played_simultaneously(records: List[pd.DataFrame], threshold: flo
         notes_in_each_window = notes_in_window(record, threshold)
 
         # casting timedelta to minutes or seconds depending on the unit used
-        time = notes_in_each_window.index.astype("timedelta64[m]") if minutes else notes_in_each_window.index.astype("timedelta64[s]")
+        time = (
+            notes_in_each_window.index.astype("timedelta64[m]")
+            if minutes
+            else notes_in_each_window.index.astype("timedelta64[s]")
+        )
 
         # computing cross tabulation between timedelta and notes played simultaneously
         num_sim_notes_in_window = pd.crosstab(time, notes_in_each_window)
 
         # heatmap
-        sns.heatmap(num_sim_notes_in_window.iloc[:, 2:].T, norm=LogNorm(), ax=axes_flat[i], cbar_kws={'label': 'Num notes in window'})
+        sns.heatmap(
+            num_sim_notes_in_window.iloc[:, 2:].T, norm=LogNorm(), ax=axes_flat[i], cbar_kws={"label": "Num notes in window"}
+        )
 
         # adding labels
-        unit_label = 'min' if minutes else 's'
+        unit_label = "min" if minutes else "s"
         axes_flat[i].set_xlabel(f"Time [{unit_label}]")
         axes_flat[i].set_ylabel("Notes simultaneously played")
         axes_flat[i].set_title(f"Record {i}")
 
+    fig.tight_layout()
     plt.show()
 
 
@@ -118,11 +125,20 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog="Speed")
 
     parser.add_argument("--fp", type=str, help="Provide HuggingFace filepath")
-    parser.add_argument("--plot", type=int, help="1. Plot time vs notes per second, 2. Notes played simulateneously")
     parser.add_argument(
-        "--window", 
-        type=float, 
-        help="1. window in which notes will be counted, 2. threshold deciding whether the note is played simulataneous with other"
+        "--plot_number", type=int, choices=[1, 2], help="1. Plot time vs notes per second, 2. Notes played simulateneously"
+    )
+    parser.add_argument(
+        "--window",
+        type=float,
+        default=60,
+        help="Window for plot 1. Specifies in what window notes will be counted before being normalized to notes per second. Default 60 seconds.",
+    )
+    parser.add_argument(
+        "--sim_note_threshold",
+        type=float,
+        default=0.1,
+        help="Threshold window for plot 2. Specifies window where notes are counted as being played simultaneously. Default 0.1 second.",
     )
 
     args = parser.parse_args()

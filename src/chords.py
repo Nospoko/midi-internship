@@ -1,10 +1,11 @@
-from typing import List
+import math
 
 import pandas as pd
-import matplotlib.pyplot as plt
-import math
 import music21 as m21
+import matplotlib.pyplot as plt
+
 from utils import load_records
+
 
 def note_pitches_played_simultaneously(record: pd.DataFrame, window: float) -> pd.Series:
     """
@@ -12,20 +13,21 @@ def note_pitches_played_simultaneously(record: pd.DataFrame, window: float) -> p
 
     Args:
         record (pd.DataFrame): record to resample
-        window (float): window [seconds] used to resample record 
+        window (float): window [seconds] used to resample record
 
     Returns:
         pd.Series: series with number of notes counted in each window
     """
 
     # resampling window, counting occurrences in each
-    notes_in_each_window = record.resample(f'{window}S', origin="start_day")["pitch"].agg(list)
+    notes_in_each_window = record.resample(f"{window}S", origin="start_day")["pitch"].agg(list)
     # filtering series so that there are only windows with more than one note (chords)
     chords = notes_in_each_window[notes_in_each_window.map(lambda d: len(d) > 1)]
-    
+
     return chords
 
-def plot_time_vs_chords_per_minute(records: List[pd.DataFrame], threshold: float):
+
+def plot_time_vs_chords_per_minute(records: list[pd.DataFrame], threshold: float):
     """
     Plot time vs chords per minute
 
@@ -35,7 +37,6 @@ def plot_time_vs_chords_per_minute(records: List[pd.DataFrame], threshold: float
     """
     # creating subplots for each record
     fig, axes = plt.subplots(nrows=3, ncols=math.ceil(len(records) / 3), figsize=(12, 12))
-    fig.tight_layout(h_pad=4)
     # flattening axes to get easier access to them
     axes_flat = axes.flatten()
 
@@ -57,14 +58,16 @@ def plot_time_vs_chords_per_minute(records: List[pd.DataFrame], threshold: float
         axes_flat[i].plot(time, chords_per_minute)
 
         # adding labels
-        unit_label = 'min' if minutes else 's'
+        unit_label = "min" if minutes else "s"
         axes_flat[i].set_xlabel(f"Time [{unit_label}]")
         axes_flat[i].set_ylabel("Chords per minute")
         axes_flat[i].set_title(f"Record {i}")
 
+    fig.tight_layout()
     plt.show()
 
-def most_common_chords(records: List[pd.DataFrame], save_path: str, filter_octaves: bool = False):
+
+def most_common_chords(records: list[pd.DataFrame], save_path: str, filter_octaves: bool = False):
     """
     Creates table counting occurences of each chord in the record
 
@@ -80,13 +83,11 @@ def most_common_chords(records: List[pd.DataFrame], save_path: str, filter_octav
         chord_names = chords.map(lambda x: m21.chord.Chord(x).pitchedCommonName)
 
         if filter_octaves:
-            chord_names = chord_names[chord_names.str.contains('octave|Octave' ) == False]
+            chord_names = chord_names[~chord_names.str.contains("octave", case=False)]
 
         chord_occurences = chord_names.value_counts()
 
         chord_occurences.to_csv(f"{save_path}/record_{i}.csv")
-
-
 
 
 if __name__ == "__main__":

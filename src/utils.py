@@ -1,7 +1,6 @@
-from typing import List
-
 import pandas as pd
 from datasets import load_dataset
+
 
 def load_records(huggingface_path: str):
     records = []
@@ -17,4 +16,3 @@ def load_records(huggingface_path: str):
         records.append(record)
 
     return records
-
