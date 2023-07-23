@@ -2,6 +2,8 @@ from typing import Tuple
 
 import pandas as pd
 
+from data import MyDataset
+
 
 def record_length(record: pd.DataFrame) -> float:
     """
@@ -157,4 +159,16 @@ def fastest_interval(record: pd.DataFrame, duration: int) -> Tuple[pd.Interval, 
     """
     interval_speed = count_notes_by_intervals(record, duration)
     rv = interval_speed[interval_speed.notes_played == interval_speed.notes_played.max()].iloc[0]
-    return rv.name, rv.notes_played
+    return record, rv.name, rv.notes_played
+
+
+def fastest_piece(dataset: MyDataset, duration: int) -> Tuple[pd.DataFrame, pd.Interval, int]:
+    best_record, best_interval, best_count = dataset[0], fastest_interval(dataset[0], duration)
+
+    for record in dataset:
+        interval, count = fastest_interval(record, duration)
+        if count > best_count:
+            best_interval, best_count = interval, count
+            best_record = record
+
+    return best_record, best_interval, best_count

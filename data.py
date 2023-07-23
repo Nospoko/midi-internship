@@ -11,4 +11,4 @@ class MyDataset:
         return pd.DataFrame(self.dataset[index]["notes"])
 
     def __len__(self):
-        return len(self.df)
+        return len(self.dataset)
