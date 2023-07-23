@@ -1,3 +1,5 @@
+from typing import Tuple
+
 import pandas as pd
 
 
@@ -133,3 +135,26 @@ def count_notes_by_intervals(record: pd.DataFrame, duration: int) -> pd.DataFram
     rv = {interval: count_notes_in_interval(record, interval) for interval in intervals}
     rv = pd.DataFrame(list(rv.items()), columns=["interval", "notes_played"]).set_index("interval")
     return rv
+
+
+def fastest_interval(record: pd.DataFrame, duration: int) -> Tuple[pd.Interval, int]:
+    """
+    For a given record and interval duration, returns the interval which has the most notes played.
+
+    Parameters
+    ----------
+    record : pd.DataFrame
+        DataFrame containing data about notes played
+    duration : int
+        The duration of the interval
+
+    Returns
+    -------
+    Tuple[pd.Interval, int]
+        A tuple (interval, count) where:
+        * interval represents the interval in which the notes are played the fastest
+        * count represents the number of notes played in said interval
+    """
+    interval_speed = count_notes_by_intervals(record, duration)
+    rv = interval_speed[interval_speed.notes_played == interval_speed.notes_played.max()].iloc[0]
+    return rv.name, rv.notes_played
