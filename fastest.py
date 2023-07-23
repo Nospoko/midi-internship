@@ -19,7 +19,7 @@ parser.add_argument(
     required=True,
 )
 parser.add_argument("--fig-path", type=str)
-
+parser.add_argument("--vid-path", type=str)
 args = parser.parse_args()
 
 
@@ -56,5 +56,5 @@ fig.savefig(args.fig_path)
 
 
 # Generate the animation (it's not efficient, your machine can get warm)
-if args.output_path is not None:
-    ff.view.make_piano_roll_video(piece, movie_path=args.output_path)
+if args.vid_path is not None:
+    ff.view.make_piano_roll_video(piece, movie_path=args.vid_path)
