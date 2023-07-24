@@ -21,7 +21,7 @@ def get_chords(df, threshold=0.05):
             record = {
                 "notes_idxs": notes_idxs,
                 "time": df.iloc[notes_idxs].start.values.mean(),
-                "pitches": list(df.iloc[notes_idxs].pitch.values),
+                "pitches": df.iloc[notes_idxs].pitch.tolist(),
             }
             records.append(record)
 
@@ -36,7 +36,7 @@ def plot_chart_of_time_vs_number_of_chords_played(chords_df):
     chart_y = chords_df.groupby(pd.cut(times, bins)).time.count().values
 
     f, ax = plt.subplots(1, 1, figsize=[16, 6])
-    ax.plot(bins[:len(chart_y)]/60, chart_y)
+    ax.plot(bins[: len(chart_y)] / 60, chart_y)
     ax.set_title("Number of chords played vs Time")
     ax.set_xlabel("Time (min)")
     ax.set_ylabel("Number of chords played per minute")
@@ -44,3 +44,26 @@ def plot_chart_of_time_vs_number_of_chords_played(chords_df):
     f.tight_layout()
 
     return f
+
+
+"""
+table with number of occurences of chords
+"""
+
+
+def get_table_with_occurences_of_chords(chords_df):
+    chords_df["sorted_pitches"] = chords_df.pitches.apply(lambda x: list(np.sort(x)))
+    chords_list = chords_df.sorted_pitches.tolist()
+    repeated_chords = []
+    n_repetitions = []
+
+    for x in chords_list:
+        n_times = chords_list.count(x)
+        if x not in repeated_chords:
+            repeated_chords.append(x)
+            n_repetitions.append(n_times)
+    results = pd.DataFrame(
+        {"repeated_chords": repeated_chords, "n_repetitions": n_repetitions}
+    )
+    repeated_chords_df = results.sort_values(by="n_repetitions", ascending=False)
+    return repeated_chords_df
