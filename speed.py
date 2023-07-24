@@ -97,25 +97,6 @@ def notes_per_interval(record: pd.DataFrame, duration: int = 1) -> pd.DataFrame:
     return nps
 
 
-def count_notes_in_interval(record: pd.DataFrame, interval: pd.Interval) -> int:
-    """
-    Counts the number of notes played in a given interval.
-
-    Parameters
-    ----------
-    record : pd.DataFrame
-        DataFrame containing data about the notes played
-    interval : pd.Interval
-        Interval in question
-
-    Returns
-    -------
-    int
-        Number of notes played in the given interval
-    """
-    return record.loc[(record["start"] >= interval.left) & (record["end"] < interval.right)]["pitch"].count()
-
-
 def count_notes_by_intervals(record: pd.DataFrame, duration: int) -> pd.DataFrame:
     """
     For a given record and duration, counts the number of notes played in every interval of given duration that starts on a note.
@@ -134,8 +115,17 @@ def count_notes_by_intervals(record: pd.DataFrame, duration: int) -> pd.DataFram
     """
     intervals = get_intervals_by_note(record, duration)
 
-    rv = {interval: count_notes_in_interval(record, interval) for interval in intervals}
-    rv = pd.DataFrame(list(rv.items()), columns=["interval", "notes_played"]).set_index("interval")
+    rv = {}
+    for interval in intervals:
+        idx = (record["start"] >= interval.left) & (record["end"] < interval.right)
+        pitch_count = record[idx]["pitch"].count()
+        rv[interval] = pitch_count
+
+    rv = pd.DataFrame(
+        list(rv.items()),
+        columns=["interval", "notes_played"],
+    ).set_index("interval")
+
     return rv
 
 
