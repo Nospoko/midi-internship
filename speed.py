@@ -149,7 +149,7 @@ def fastest_interval(record: pd.DataFrame, duration: int) -> Tuple[pd.Interval, 
     """
     interval_speed = count_notes_by_intervals(record, duration)
     rv = interval_speed[interval_speed.notes_played == interval_speed.notes_played.max()].iloc[0]
-    return record, rv.name, rv.notes_played
+    return rv.name, rv.notes_played
 
 
 def fastest_piece(dataset: MyDataset, duration: int) -> Tuple[pd.DataFrame, pd.Interval, int]:
