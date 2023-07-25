@@ -21,9 +21,23 @@ def plot_record_speed(record: pd.DataFrame):
         notes_per_sec = pd.Series(notes_per_sec)
 
     fig, ax = plt.subplots(1, 1, figsize=(12, 4))
-    # # return notes_per_unit
     ax.plot(notes_per_sec)
     ax.set_title(f'Number of notes per second'), ax.set_xlabel(f'Time [{unit}]'), ax.set_ylabel('Notes count')
     ax.set_ylim([0, notes_per_sec.max()])
     fig.tight_layout()
 
+def plot_notes_lookahead(record_grouped):
+    fig, ax = plt.subplots(1, 1, figsize=(8, 4))
+    ax.plot(record_grouped['minute'], record_grouped['len_overlapp_mean'], 'k')
+    ax.fill_between(
+        record_grouped['minute'], 
+        y1 = record_grouped['lower_bound'],
+        y2 = record_grouped['upper_bound'],
+        color='blue',
+        alpha=.3
+    )
+
+    ax.set_title('Average number of notes pressed at the same time')
+    ax.set_xlabel('Time [minutes]'), ax.set_ylabel('Count')
+    ax.legend(['Mean', '+- std'])
+    fig.tight_layout()
