@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 plt.style.use('ggplot')
 
+
 def plot_record_speed(record: pd.DataFrame):
     """
     Plots the number of notes played in a record
@@ -26,9 +27,12 @@ def plot_record_speed(record: pd.DataFrame):
     ax.set_ylim([0, notes_per_sec.max()])
     fig.tight_layout()
 
-def plot_notes_lookahead(record_grouped):
-    fig, ax = plt.subplots(1, 1, figsize=(8, 4))
-    ax.plot(record_grouped['minute'], record_grouped['len_overlapp_mean'], 'k')
+
+def plot_aggregated_notes(ax, record_grouped, title):
+    """
+    Plotting for aggregated values of counts
+    """
+    ax.plot(record_grouped['minute'], record_grouped['notes_mean'], 'k')
     ax.fill_between(
         record_grouped['minute'], 
         y1 = record_grouped['lower_bound'],
@@ -36,8 +40,5 @@ def plot_notes_lookahead(record_grouped):
         color='blue',
         alpha=.3
     )
-
-    ax.set_title('Average number of notes pressed at the same time')
-    ax.set_xlabel('Time [minutes]'), ax.set_ylabel('Count')
-    ax.legend(['Mean', '+- std'])
-    fig.tight_layout()
+    ax.set_title(title)
+    return ax
