@@ -44,4 +44,4 @@ if __name__ == "__main__":
   df = pd.DataFrame(record["notes"])
 
   # Plot the speed
-  plot_speed(df)
+  #plot_speed(df)
