@@ -25,7 +25,7 @@ For the purpose of this project, we load this data into `pd.DataFrame`:
 ```
 
 Every note played is represented as a row with information about the key pressed (pitch), loudness (velocity), and
-time and duration of the note (with nanosecond precision)(not really). 
+time and duration of the note (with nanosecond precision)(not really).
 
 ### Pianoroll
 
