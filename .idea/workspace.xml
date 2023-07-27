@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56ca4b6d-94de-4edd-adc4-4e7b3c8723c7" name="Changes" comment="time vs speed">
-      <change afterPath="$PROJECT_DIR$/number_chords.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chords.py" beforeDir="false" afterPath="$PROJECT_DIR$/chords.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/speed.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/speed_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/speed_time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time vs speed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timevs chords.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +46,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.number_chords">
+  <component name="RunManager" selected="Python.speed_time">
     <configuration name="chords" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="midi-internship" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,9 +137,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.speed_time" />
         <item itemvalue="Python.number_chords" />
         <item itemvalue="Python.chords" />
-        <item itemvalue="Python.speed_time" />
         <item itemvalue="Python.time_speed" />
       </list>
     </recent_temporary>
@@ -160,7 +155,7 @@
       <workItem from="1690396416905" duration="1546000" />
       <workItem from="1690398104034" duration="53000" />
       <workItem from="1690398159715" duration="8602000" />
-      <workItem from="1690433461947" duration="2221000" />
+      <workItem from="1690433461947" duration="3061000" />
     </task>
     <task id="LOCAL-00001" summary="time vs speed">
       <option name="closed" value="true" />
@@ -219,7 +214,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/midi_internship$speed_time.coverage" NAME="speed_time Coverage Results" MODIFIED="1690433708958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/midi_internship$speed_time.coverage" NAME="speed_time Coverage Results" MODIFIED="1690436532807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/midi_internship$time_speed.coverage" NAME="time_speed Coverage Results" MODIFIED="1690398288285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/midi_internship$chords.coverage" NAME="chords Coverage Results" MODIFIED="1690434575872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/midi_internship$number_chords.coverage" NAME="number_chords Coverage Results" MODIFIED="1690435636919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

@@ -22,7 +22,12 @@ def plot_speed(df):
   speed = 1 / time_intervals
 
 # Set the time unit
-  time_unit = "seconds" if time_intervals.max() <= 120 else "minutes"
+  if df['end'].max() > 120:
+    df['start'] /= 60
+    df['end'] /= 60
+    time_unit = "minutes"
+  else:
+    time_unit = "seconds"
 
 # Plot the data
   plt.plot(df["start"], speed)
