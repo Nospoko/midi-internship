@@ -2,8 +2,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-plt.style.use("ggplot")
-
 
 def plot_record_speed(record: pd.DataFrame):
     """
