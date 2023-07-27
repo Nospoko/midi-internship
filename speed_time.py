@@ -32,7 +32,7 @@ def plot_speed(df):
   plt.show()
 
 # Save the image
-  plt.savefig("speed.png")
+  #plt.savefig("speed.png")
 
 
 if __name__ == "__main__":
@@ -44,4 +44,4 @@ if __name__ == "__main__":
   df = pd.DataFrame(record["notes"])
 
   # Plot the speed
-  #plot_speed(df)
+  plot_speed(df)
