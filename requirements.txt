@@ -1,6 +1,8 @@
 chorder~=0.1.4
 datasets==2.10.0
 fortepyan~=0.2.3
+
+Levenshtein~=0.21.1
 matplotlib~=3.7.2
 miditoolkit~=0.1.16
 numpy~=1.25.1
