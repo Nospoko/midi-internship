@@ -1,5 +1,12 @@
+import os
+
 import pygame
+import numpy as np
+import fortepyan as ff
 import matplotlib.pyplot as plt
+import miditoolkit.midi.containers as ct
+from miditoolkit.midi.parser import MidiFile
+from pretty_midi.pretty_midi import PrettyMIDI
 
 
 def plot(x, y, xlabel, ylabel, title=None):
@@ -29,6 +36,50 @@ def plot(x, y, xlabel, ylabel, title=None):
     plt.tick_params(axis="y", labelsize=12, color="#e6e6e6")
     plt.savefig("./plots/" + title.replace(" ", "-").replace(",", "") + "-" + ylabel.lower() + "-vs-" + xlabel.lower() + ".png")
     plt.close()  # close the figure window
+
+
+def midipiece_to_midifile(piece: ff.MidiPiece):
+    """
+    Converts a MidiPiece object to a MidiFile object.
+
+    Parameters:
+        piece (MidiPiece): A MidiPiece object containing notes.
+
+    Returns:
+        MidiFile: A MidiFile object representing the MIDI data.
+    """
+
+    def start_to_ticks(row, piece: PrettyMIDI):
+        return piece.time_to_tick(row["start"])
+
+    def end_to_ticks(row, piece: PrettyMIDI):
+        return piece.time_to_tick(row["end"])
+
+    mido_obj = MidiFile(ticks_per_beat=480)
+    track = ct.Instrument(program=0, is_drum=False, name="track")
+    mido_obj.instruments = [track]
+    # print(piece.df.head())
+    midi_data = piece.df
+    piece = piece.to_midi()
+
+    midi_data["start"] = midi_data.apply(start_to_ticks, axis=1, args=(piece,))
+    midi_data["end"] = midi_data.apply(end_to_ticks, axis=1, args=(piece,))
+    notes_midi = np.array(midi_data[["velocity", "pitch", "start", "end"]])
+
+    for note in notes_midi:
+        mido_obj.instruments[0].notes.append(ct.Note(*note))
+    # I don't know how to do a better re-initialization than this
+    # mido_obj.dump("res.mid")
+    # mido_obj = MidiFile("res.mid", ticks_per_beat=480)
+    return mido_obj
+
+
+def play_midi_piece(midi_piece):
+    piece = midipiece_to_midifile(midi_piece)
+    piece.dump("piece.mid")
+    play_midi_file("piece.mid")
+    if os.path.isfile("piece.mid"):
+        os.remove("piece.mid")
 
 
 def play_midi_file(file_path):

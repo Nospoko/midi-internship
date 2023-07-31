@@ -20,26 +20,23 @@ def calculate_speed(midi_data: pd.DataFrame, timeframe=None) -> (pd.Series, str)
         pd.Series, str: A Series containing the number of notes played in each timeframe,
                         and a string representing the xlabel for the plot.
 
-    Example:
-        # Assuming midi_data is a DataFrame with 'start' and 'end' columns
-        notes_counts, xlabel = calculate_speed(midi_data)
-        plot(x=note_counts.index, y=note_counts.values, xlabel=xlabel, ylabel="Number of Notes",
-             title="Notes per Second/Minute")
     """
     recording_duration_seconds = midi_data["end"].max()
-    if timeframe is None:
-        if recording_duration_seconds > 120:
-            midi_data["timeframe"] = midi_data["start"] // 60
-            note_counts = midi_data.groupby("timeframe").size()
-            x_label = "Minutes"
-        else:
-            midi_data["timeframe"] = np.floor(midi_data["start"])
-            note_counts = midi_data.groupby("timeframe").size()
-            x_label = "Seconds"
-    else:
+    if timeframe is not None:
         midi_data["timeframe"] = midi_data["start"] // timeframe
         note_counts = midi_data.groupby("timeframe").size()
         x_label = "{:d} second(s)".format(timeframe)
+        return note_counts, x_label
+
+    if recording_duration_seconds > 120:
+        midi_data["timeframe"] = midi_data["start"] // 60
+        note_counts = midi_data.groupby("timeframe").size()
+        x_label = "Minutes"
+    else:
+        midi_data["timeframe"] = np.floor(midi_data["start"])
+        note_counts = midi_data.groupby("timeframe").size()
+        x_label = "Seconds"
+
     return note_counts, x_label
 
 
@@ -47,11 +44,6 @@ def plot_speed(midi_data, title="speed", timeframe=None):
     """
     Plot the number of notes played per second or per minute from MIDI data.
 
-    Parameters:
-        midi_data (pd.DataFrame): A DataFrame containing MIDI data with 'start' and 'end' columns.
-        title (str, optional): The title of the plot. Default is 'speed'.
-        timeframe (int, optional): The timeframe in seconds. If None, the function will choose between
-                                   seconds and minutes automatically based on the recording duration.
     """
     note_counts, x_label = calculate_speed(midi_data, timeframe)
     plot(x=note_counts.index, y=note_counts.values, xlabel=x_label, ylabel="Number of notes", title=title)
@@ -61,11 +53,6 @@ def plot_simultaneous_notes(midi_data: pd.DataFrame, time_threshold, title="simu
     """
     Plot the number of notes played per second or per minute from MIDI data.
 
-    Parameters:
-        midi_data (pd.DataFrame): A DataFrame containing MIDI data with 'start' and 'end' columns.
-        title (str, optional): The title of the plot. Default is 'speed'.
-        timeframe (int, optional): The timeframe in seconds. If None, the function will choose between
-                                   seconds and minutes automatically based on the recording duration.
     """
     # Round the 'start' column to the nearest threshold to group the notes
     midi_data["Start Rounded"] = np.round(midi_data["start"] / time_threshold) * time_threshold
@@ -114,7 +101,7 @@ def find_fastest(dataset):
 
 
 if __name__ == "__main__":
-    dataset = load_dataset("roszcz/maestro-v1", split="test")
+    dataset = load_dataset("roszcz/maestro-v1", split="train+test+validation")
 
     record = dataset[3]
     midi_data = pd.DataFrame(record["notes"])
@@ -123,4 +110,5 @@ if __name__ == "__main__":
     for threshold in time_thresholds:
         plot_simultaneous_notes(midi_data, time_threshold=threshold, title=record["composer"] + " " + record["title"])
     print(find_fastest(dataset))
-    # ['Franz Liszt', 'Transcendental Etude No. 11 "Harmonies du Soir"', 416]
+    # test: ['Franz Liszt', 'Transcendental Etude No. 11 "Harmonies du Soir"', 416]
+    # train: ['Frédéric Chopin', 'Etude Op. 25 No. 10 in B Minor', 483]

@@ -1,4 +1,3 @@
-import os
 import queue
 
 import numpy as np
@@ -8,9 +7,8 @@ from tqdm import tqdm
 import chorder.dechorder
 import chorder.timepoints
 from datasets import load_dataset
-from miditoolkit.midi.parser import MidiFile
+from miditoolkit.midi.containers import Note
 from pretty_midi.pretty_midi import PrettyMIDI
-from miditoolkit.midi.containers import Note, Instrument
 
 from helpers import plot
 
@@ -27,34 +25,6 @@ def end_to_time(row, piece: PrettyMIDI):
     return piece.tick_to_time(row["end"])
 
 
-def MidiPiece_to_MidiFile(piece: ff.MidiPiece):
-    """
-    Converts a MidiPiece object to a MidiFile object.
-
-    Parameters:
-        piece (MidiPiece): A MidiPiece object containing notes.
-
-    Returns:
-        MidiFile: A MidiFile object representing the MIDI data.
-    """
-    mido_obj = MidiFile(ticks_per_beat=480)
-    track = Instrument(program=0, is_drum=False, name="track")
-    mido_obj.instruments = [track]
-    # print(piece.df.head())
-    midi_data = piece.df
-    piece = piece.to_midi()
-
-    midi_data["start"] = midi_data.apply(start_to_ticks, axis=1, args=(piece,))
-    midi_data["end"] = midi_data.apply(end_to_ticks, axis=1, args=(piece,))
-    notes_midi = np.array(midi_data[["velocity", "pitch", "start", "end"]])
-
-    for note in notes_midi:
-        mido_obj.instruments[0].notes.append(Note(*note))
-    mido_obj.dump("res.mid")
-    mido_obj = MidiFile("res.mid", ticks_per_beat=480)
-    return mido_obj
-
-
 def get_chords(piece: ff.MidiPiece):
     """
     Extracts chords from a MidiPiece object.
@@ -67,7 +37,7 @@ def get_chords(piece: ff.MidiPiece):
     Returns:
         list: A list of detected chords in the format [chord_name, start_time, end_time].
     """
-    mido_obj = MidiPiece_to_MidiFile(piece)
+    # mido_obj = midipiece_to_midifile(piece)
     # define comparator
     setattr(Note, "__lt__", lambda self, other: self.end <= other.end)
     pq = queue.PriorityQueue()
@@ -75,12 +45,20 @@ def get_chords(piece: ff.MidiPiece):
     count = 0
     chords = []
     prev_chord = None
+    midi_data = piece.df
+    piece = piece.to_midi()
+    midi_data["start"] = midi_data.apply(start_to_ticks, axis=1, args=(piece,))
+    midi_data["end"] = midi_data.apply(end_to_ticks, axis=1, args=(piece,))
+    notes_midi = np.array(midi_data[["velocity", "pitch", "start", "end"]])
 
-    for note in mido_obj.instruments[0].notes:
+    for note in notes_midi:
+        note = Note(*note)
         pq.put(note)
         end = note.end
         notes = [note for note in pq.queue]
         # Pop notes which ended before current note started
+        if pq.empty():
+            continue
         while note.start > pq.queue[0].end:
             pq.get()
             start = pq.queue[0].start
@@ -143,7 +121,7 @@ def process_dataset(dataset, csv_file_path):
 
     Returns:
         pd.Series: A row containing information about the most played chord for a specific composer and title.
-                   The row contains the following columns: 'composer', 'title', 'chord', and 'number'.
+                   The row contains the following columns: 'composer', 'title', 'chord', and 'repetitions'.
     """
     most_played_chords = []
     for record in tqdm(dataset):
@@ -160,7 +138,6 @@ def process_dataset(dataset, csv_file_path):
     most_played_chords = pd.DataFrame(most_played_chords, columns=["composer", "title", "chord", "repetitions"])
     most_played_chords.to_csv(csv_file_path)
     max_index = most_played_chords["repetitions"].idxmax()
-    print(most_played_chords.iloc[max_index])
     return most_played_chords.iloc[max_index]
 
 
@@ -173,13 +150,15 @@ def make_plots(dataset, index_to_plot):
 
 
 if __name__ == "__main__":
-    dataset = load_dataset("roszcz/maestro-v1", split="test")
-    index_to_plot = [0, 16, 25, 50, 30, 55]
-    make_plots(dataset, index_to_plot)
-    most_chord_reps = process_dataset(dataset, "most-played-chords.csv")
-    # composer            Franz Liszt
-    # title          Rem. of Don Juan
-    # chord                        EM
-    # repetitions                 422
-    if os.path.isfile("res.mid"):
-        os.remove("res.mid")
+    dataset = load_dataset("roszcz/maestro-v1", split="train+test+validation")
+    # index_to_plot = [0, 16, 25, 50, 30, 55]
+    # make_plots(dataset, index_to_plot)
+
+    most_chord_reps = process_dataset(dataset, "most-played-chords-v3.csv")
+    print(most_chord_reps)
+
+    # all:
+    # composer                Franz Schubert
+    # title          Sonata in D Major, D850
+    # chord                               AM
+    # repetitions                        805
