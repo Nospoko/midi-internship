@@ -2,6 +2,7 @@ import os
 
 import pygame
 import numpy as np
+import pandas as pd
 import fortepyan as ff
 import matplotlib.pyplot as plt
 import miditoolkit.midi.containers as ct
@@ -114,3 +115,52 @@ def play_midi_file(file_path):
         print("Error loading or playing MIDI file:", str(error))
 
     pygame.quit()
+
+
+def save_table(chord_count: pd.DataFrame, path):
+    """
+    Save a DataFrame containing chord counts as a beautiful table in a PNG file.
+
+    Parameters:
+        chord_count (pd.DataFrame): A DataFrame containing chord counts with columns "chord" and "count".
+        path (str): The file path to save the table as a pdf file.
+    """
+
+    background_color = "#3F3F3F"
+    text_color = "#EAEAEA"
+    header_color = "#6B6B6B"
+    row_colors = ["#E5D5EC", "#E9D8A6"]
+
+    # Plot the table
+    fig, ax = plt.subplots(figsize=(6, 4))
+    ax.axis("tight")
+    ax.axis("off")
+    table_data = [chord_count.columns] + chord_count.values.tolist()
+    table = ax.table(
+        cellText=table_data,
+        colLabels=None,
+        cellLoc="center",
+        rowLoc="center",
+        loc="center",
+        cellColours=[row_colors] * len(table_data),
+        colColours=[header_color] * len(chord_count.columns),
+    )
+
+    # Set font properties
+    font_props = {"color": text_color, "fontweight": "bold"}
+
+    # Customize table appearance
+    table.auto_set_font_size(False)
+    table.set_fontsize(12)
+    table.scale(1.2, 1.2)
+    for k, cell in table.get_celld().items():
+        cell.set_edgecolor(background_color)
+        if k[0] == 0:
+            cell.set_text_props(**font_props)
+        if k[1] == -1:
+            cell.set_text_props(ha="right", **font_props)
+
+    # Remove table border
+    ax.axis("off")
+    # Save the table as a file
+    plt.savefig(path, bbox_inches="tight", pad_inches=0.1, facecolor=background_color)

@@ -6,11 +6,11 @@ import fortepyan as ff
 from tqdm import tqdm
 import chorder.dechorder
 import chorder.timepoints
-from datasets import load_dataset
+from datasets import Dataset, load_dataset
 from miditoolkit.midi.containers import Note
 from pretty_midi.pretty_midi import PrettyMIDI
 
-from helpers import plot
+from helpers import plot, save_table
 
 
 def start_to_ticks(row, piece: PrettyMIDI):
@@ -35,18 +35,19 @@ def get_chords(piece: ff.MidiPiece):
         piece (MidiPiece): A MidiPiece object containing musical events.
 
     Returns:
-        list: A list of detected chords in the format [chord_name, start_time, end_time].
+        list: A list of detected chords in the format [chord, start, end].
     """
-    # mido_obj = midipiece_to_midifile(piece)
     # define comparator
     setattr(Note, "__lt__", lambda self, other: self.end <= other.end)
     pq = queue.PriorityQueue()
     start = 0
     count = 0
     chords = []
+
     prev_chord = None
-    midi_data = piece.df
+    midi_data = piece.df.copy()
     piece = piece.to_midi()
+    threshold = 24
     midi_data["start"] = midi_data.apply(start_to_ticks, axis=1, args=(piece,))
     midi_data["end"] = midi_data.apply(end_to_ticks, axis=1, args=(piece,))
     notes_midi = np.array(midi_data[["velocity", "pitch", "start", "end"]])
@@ -55,40 +56,35 @@ def get_chords(piece: ff.MidiPiece):
         note = Note(*note)
         pq.put(note)
         end = note.end
-        notes = [note for note in pq.queue]
         # Pop notes which ended before current note started
-        if pq.empty():
-            continue
-        while note.start > pq.queue[0].end:
+        while pq.queue[0].end < note.start or (pq.queue[0].end - note.start > threshold and pq.queue[0] != note):
             pq.get()
             start = pq.queue[0].start
+        notes = [note for note in pq.queue]
         # Try to recognize chord from list of notes
-        chord = chorder.Dechorder.get_chord_quality(notes, start, end)
-        if chord[0].is_complete():
+        chord, _ = chorder.Dechorder.get_chord_quality(notes, start, end)
+        if chord.is_complete():
             # Check if the chord has changed
-            if prev_chord != chord[0]:
-                prev_chord = chord[0]
-                chords.append([chord[0].__str__(), start, end])
+            if prev_chord != chord:
+                prev_chord = chord
+                chords.append([chord.__str__(), start, end])
                 count += 1
     return chords
 
 
-def plot_chords_vs_time(chords, prettyMIDIpiece, title, timeframe=None):
+def plot_chords_vs_time(chords: list, prettymidi_piece: PrettyMIDI, title: str, timeframe=None):
     """
     Plots the number of chords played over time.
 
     Parameters:
         chords (list): A list of detected chords in the format [chord_name, start_time, end_time].
-        prettyMIDIpiece (PrettyMIDI): A PrettyMIDI object representing the MIDI data.
+        prettymidi_piece (PrettyMIDI): A PrettyMIDI object representing the MIDI data.
         title (str): The title of the plot.
-        timeframe (int, optional): The time interval (in seconds) for grouping chords. If not provided,
+        timeframe (float, optional): The time interval (in seconds) for grouping chords. If not provided,
                                    it will be automatically calculated based on the recording duration.
-
-    Returns:
-        None
     """
     chords = pd.DataFrame(chords, columns=["chord", "start", "end"])
-    chords["end"] = chords.apply(end_to_time, axis=1, args=(prettyMIDIpiece,))
+    chords["end"] = chords.apply(end_to_time, axis=1, args=(prettymidi_piece,))
 
     recording_duration_seconds = chords["end"].max()
     # Determine the timeframe for grouping chords based on the recording duration
@@ -110,14 +106,32 @@ def plot_chords_vs_time(chords, prettyMIDIpiece, title, timeframe=None):
     )
 
 
-def process_dataset(dataset, csv_file_path):
+def get_chord_count(record: dict) -> pd.Series:
+    """
+
+    Counts how many times each chord was played in a recording
+
+    Parameters:
+        - record (dict): A Hugging Face MidiPiece object representing the MIDI recording.
+
+    Returns:
+        - pandas Series: A Series containing the chord counts, with chord names as the index and their respective counts as values.
+
+    """
+    piece = ff.MidiPiece.from_huggingface(record)
+    chords = get_chords(piece)
+    chords_count = pd.DataFrame(chords, columns=["chord", "start", "end"])
+    chords_count = chords_count.groupby(["chord"]).size()
+    return chords_count
+
+
+def get_most_played_chords(dataset: Dataset) -> pd.DataFrame:
     """
     Processes a dataset of MIDI records, detects the most played chord for each record,
     and saves the results to a CSV file.
 
     Parameters:
         dataset (list): A list of MIDI records to process.
-        csv_file_path (str): The file path to save the results as a CSV file.
 
     Returns:
         pd.Series: A row containing information about the most played chord for a specific composer and title.
@@ -126,7 +140,7 @@ def process_dataset(dataset, csv_file_path):
     most_played_chords = []
     for record in tqdm(dataset):
         piece = ff.MidiPiece.from_huggingface(record)
-        print(record["composer"] + ", " + record["title"])
+        # print(record["composer"] + ", " + record["title"])
         chords = get_chords(piece)
         chords_count = pd.DataFrame(chords, columns=["chord", "start", "end"])
         chords_count = chords_count.groupby(["chord"]).size()
@@ -136,9 +150,7 @@ def process_dataset(dataset, csv_file_path):
         )
 
     most_played_chords = pd.DataFrame(most_played_chords, columns=["composer", "title", "chord", "repetitions"])
-    most_played_chords.to_csv(csv_file_path)
-    max_index = most_played_chords["repetitions"].idxmax()
-    return most_played_chords.iloc[max_index]
+    return most_played_chords
 
 
 def make_plots(dataset, index_to_plot):
@@ -149,16 +161,31 @@ def make_plots(dataset, index_to_plot):
         plot_chords_vs_time(chords, piece.to_midi(), record["composer"] + ", " + record["title"])
 
 
-if __name__ == "__main__":
+def main():
     dataset = load_dataset("roszcz/maestro-v1", split="train+test+validation")
-    # index_to_plot = [0, 16, 25, 50, 30, 55]
+    index_to_plot = [137, 289, 347, 0, 87]
     # make_plots(dataset, index_to_plot)
+    for index in index_to_plot:
+        record = dataset[index]
+        path = record["composer"] + "-" + record["title"]
+        path = path.replace(" ", "-").lower()
+        chord_count = get_chord_count(record=record)
 
-    most_chord_reps = process_dataset(dataset, "most-played-chords-v3.csv")
-    print(most_chord_reps)
+        chord_count = np.array([chord_count.index.tolist(), chord_count.values.tolist()]).T
+        chord_count = pd.DataFrame(chord_count, columns=["chord", "repetitions"])
+        chord_count.to_csv(path + ".csv")
+        save_table(chord_count, path + ".pdf")
 
-    # all:
+    chord_reps = get_most_played_chords(dataset)
+    max_index = chord_reps["repetitions"].idxmax()
+    print(chord_reps.iloc[max_index])
+    chord_reps.to_csv("most-played-chords-v2.csv")
     # composer                Franz Schubert
     # title          Sonata in D Major, D850
-    # chord                               AM
-    # repetitions                        805
+    # chord                               DM
+    # repetitions                       1582
+    # index: 347
+
+
+if __name__ == "__main__":
+    main()

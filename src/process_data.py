@@ -79,7 +79,7 @@ def find_multiples(dataset: datasets.Dataset):
     return multiples
 
 
-def are_similar(notes_first, notes_second, threshold=0.4):
+def are_similar(notes_first: str, notes_second: str, threshold=0.45):
     """
 
     This function compares two sequences of musical notes and determines whether they are similar
@@ -95,7 +95,10 @@ def are_similar(notes_first, notes_second, threshold=0.4):
 
 def main():
     dataset = load_dataset("roszcz/maestro-v1", split="train+test+validation")
+
     find_inconsistent_pieces(dataset).to_csv("inconsistent-data.csv")
+    find_multiples(dataset).to_csv("multiples.csv")
+    # play_rec_no(912, dataset)
 
 
 if __name__ == "__main__":
