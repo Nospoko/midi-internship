@@ -27,7 +27,7 @@ def make_pitch_base_n_grams(unigrams: list, n: int) -> list:
     n_grams = []
 
     for i in range(len(unigrams) - n):
-        n_grams.append(unigrams[i: i + n])  # Can be optimized with dqueue
+        n_grams.append(unigrams[i : i + n])  # Can be optimized with dqueue
 
     return n_grams
 
@@ -115,14 +115,12 @@ def make_combined_unigrams(df: DataFrame) -> list:
         upper_envelope_note, curr_ind = get_next_note(df, ind, threshold)
 
         if df.iloc[ind]["start"] == upper_envelope_note["start"]:
-            upper_envelope_note, curr_ind = \
-                get_next_note(df, curr_ind, threshold)
+            upper_envelope_note, curr_ind = get_next_note(df, curr_ind, threshold)
 
         if curr_ind + 1 >= len(df["start"]):
             break
 
-        upper_envelope_note_next, curr_ind = \
-            get_next_note(df, curr_ind, threshold)
+        upper_envelope_note_next, curr_ind = get_next_note(df, curr_ind, threshold)
 
         pitch_i = df.iloc[ind]["pitch"]
         pitch_i_1 = upper_envelope_note["pitch"]
@@ -155,7 +153,7 @@ def make_combined_n_grams(unigrams: list, n: int) -> list:
     n_grams = []
 
     for i in range(0, len(unigrams) - n, 2):
-        n_grams.append(unigrams[i: i + n])  # Can be optimized with dqueue
+        n_grams.append(unigrams[i : i + n])  # Can be optimized with dqueue
 
     return n_grams
 
@@ -202,7 +200,7 @@ def combined_n_grams_task():
             f"The most popular 4-grams is {most_popular_4_grams[0]} "
             f"repeated {most_popular_4_grams[1]} times"
         )
-        
+
 
 if __name__ == "__main__":
-    pass
+    pitch_based_n_grams_task()
