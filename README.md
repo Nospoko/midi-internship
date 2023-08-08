@@ -37,7 +37,7 @@ To do this with our internal MIDI library:
 ```python
 import fortepyan as ff
 
-record = dataset[137]
+record = dataset[2]
 piece = ff.MidiPiece.from_huggingface(record)
 print(piece.df.head())
 ```
