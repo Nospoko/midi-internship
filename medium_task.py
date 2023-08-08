@@ -56,7 +56,10 @@ def pitch_based_n_grams_task():
         for sub_n_grams in four_grams:
             four_grams_counter[str(sub_n_grams)] += 1
 
-        print(f"Composer: {record['composer']} - title {record['title']}")
+        print(
+            f"Composer: {record['composer']} - title {record['title']}"
+            f" year - {record['year']}"
+        )
         most_popular_2_grams = two_grams_counter.most_common(1)[0]
         most_popular_3_grams = three_grams_counter.most_common(1)[0]
         most_popular_4_grams = four_grams_counter.most_common(1)[0]
@@ -132,11 +135,6 @@ def make_combined_unigrams(df: DataFrame) -> list:
         interval_i = pitch_i_1 - pitch_i
         ration_i = (onset_i_2 - onset_i_1) / (onset_i_1 - onset_i)
         ration_i = round(ration_i, accuracy)
-
-        if math.modf(interval_i)[0] > 0:
-            print(df.iloc[ind]["start"])
-            print(upper_envelope_note)
-            exit()
 
         unigrams.append(interval_i)
         unigrams.append(ration_i)
