@@ -1,2 +1,9 @@
 datasets==2.10.0
 pandas==1.5.3
+transformers
+chorder
+miditoolkit
+numpy==1.23.4
+matplotlib==3.6.1
+chorder==0.1.4
+miditoolkit==0.1.16
