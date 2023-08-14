@@ -1,0 +1,946 @@
+,record_number,chord_name,chord_count,title,composer,year
+0,1,B-minor triad,62,Sonata Op. 1,Alban Berg,2018
+1,2,B-minor triad,137,Sonata Op. 1,Alban Berg,2008
+2,3,E-minor trichord,40,Sonata Op. 1,Alban Berg,2017
+3,4,D-minor triad,57,"24 Preludes Op. 11, No. 13-24",Alexander Scriabin,2004
+4,5,enharmonic equivalent to minor triad above Bb,72,"Etude Op. 2 No.1;  Etudes Op. 8, Nos. 5, 11 and 12",Alexander Scriabin,2013
+5,6,enharmonic equivalent to major triad above F,50,"Etude in D-flat Major, Op. 8 No. 10",Alexander Scriabin,2011
+6,7,enharmonic equivalent to major triad above Bb,84,Etudes from Op.8,Alexander Scriabin,2006
+7,8,enharmonic equivalent to major triad above B,79,Fantasy Op. 28 in B Minor,Alexander Scriabin,2013
+8,9,enharmonic equivalent to major triad above F#,71,"Fantasy in B Minor, Op. 28",Alexander Scriabin,2011
+9,10,enharmonic equivalent to major triad above B,110,"Fantasy, Op. 28",Alexander Scriabin,2014
+10,11,F#-incomplete dominant-seventh chord,11,"Prelude and Nocturne for Left Hand, Op. 9",Alexander Scriabin,2008
+11,12,enharmonic equivalent to minor triad above B,40,Sonata No. 2,Alexander Scriabin,2006
+12,13,enharmonic equivalent to minor triad above G#,22,"Sonata No. 2 in G-sharp Minor, Op. 19",Alexander Scriabin,2018
+13,14,enharmonic equivalent to minor triad above B,19,"Sonata No. 2 in G-sharp Minor, Op. 19",Alexander Scriabin,2018
+14,15,enharmonic equivalent to minor triad above B,27,"Sonata No. 2 in G-sharp Minor, Op. 19 (Complete)",Alexander Scriabin,2017
+15,16,A-incomplete major-seventh chord,56,"Sonata No. 3 in F-sharp Minor, Op. 23",Alexander Scriabin,2018
+16,17,F#-minor triad,65,"Sonata No. 3 in F-sharp Minor, Op. 23",Alexander Scriabin,2018
+17,18,F#-minor triad,62,"Sonata No. 3 in F-sharp Minor, Op. 23",Alexander Scriabin,2018
+18,19,Eb-incomplete major-seventh chord,247,"Sonata No. 5 in F-sharp Minor, Op. 53",Alexander Scriabin,2004
+19,20,G#-tritone-fourth,254,"Sonata No. 5, Op. 53",Alexander Scriabin,2018
+20,21,F-augmented triad,231,"Sonata No. 5, Op. 53",Alexander Scriabin,2009
+21,22,A-whole-tone trichord,248,"Sonata No. 5, Op. 53",Alexander Scriabin,2009
+22,23,F#-minor-ninth chord,222,"Sonata No. 5, Op. 53",Alexander Scriabin,2008
+23,24,C#-center-cluster pentachord,292,"Sonata No. 5, Op. 53",Alexander Scriabin,2014
+24,25,F#-minor triad,302,"Sonata No. 5, Op. 53",Alexander Scriabin,2014
+25,26,F#-incomplete dominant-seventh chord,32,Sonata No. 10 in B Minor,Antonio Soler,2009
+26,27,C-major triad,294,"Sonata No. 1, 2nd, 3rd and 4th movements",Carl Maria von Weber,2008
+27,28,D-major triad,139,Faust Waltz,Charles Gounod / Franz Liszt,2006
+28,29,E-incomplete half-diminished seventh chord,29,"""Feux d'artifice"" from Book II",Claude Debussy,2008
+29,30,C-quartal trichord,84,"""Images"", Series I",Claude Debussy,2013
+30,31,A-whole-tone trichord,13,"""Les collines d'Anacapri"" from Preludes, Book I",Claude Debussy,2008
+31,32,enharmonic equivalent to major triad above F#,12,"""Ondine"" from Book II",Claude Debussy,2008
+32,33,F#-incomplete half-diminished seventh chord,13,"""Voiles"" from Preludes, Book I",Claude Debussy,2008
+33,34,Eb-all-interval tetrachord,77,"Barcarolle, Op. 60",Claude Debussy,2015
+34,35,F#-phrygian trichord,28,Bruyeres,Claude Debussy,2006
+35,36,C#-quartal trichord,10,"Etude ""Pour le arpeges composes""",Claude Debussy,2009
+36,38,Eb-minor third tetracluster,4,"Etude No. 6, Book I, ""Pour les huits doigts""",Claude Debussy,2008
+37,39,A-chromatic tetramirror,19,Feux d'artifice,Claude Debussy,2006
+38,40,enharmonic equivalent to minor seventh chord above F#,88,Four Preludes,Claude Debussy,2006
+39,41,C#-phrygian trichord,55,Image (Book II),Claude Debussy,2004
+40,42,C-whole-tone trichord,140,"Images Book 1 (Complete), L 110",Claude Debussy,2014
+41,43,A-phrygian trichord,58,Images Book II,Claude Debussy,2006
+42,44,E-quartal tetramirror,89,"Images, Book I",Claude Debussy,2009
+43,45,F#-incomplete minor-seventh chord,19,"Images, Book I, ""Reflets dans l'eau""",Claude Debussy,2008
+44,46,A-minor triad,51,"Images, Book II",Claude Debussy,2018
+45,47,Eb-incomplete minor-seventh chord,29,"Images, Book II, ""Poissons d'or""",Claude Debussy,2008
+46,48,F#-incomplete dominant-seventh chord,96,L'Isle Joyeuse,Claude Debussy,2011
+47,49,A-incomplete half-diminished seventh chord,83,L'isle joyeuse,Claude Debussy,2014
+48,50,A-incomplete half-diminished seventh chord,81,L'isle joyeuse,Claude Debussy,2013
+49,51,A-major triad,70,L'isle joyeuse,Claude Debussy,2013
+50,52,F#-minor tetramirror,74,L'isle joyeuse,Claude Debussy,2017
+51,53,A-incomplete half-diminished seventh chord,62,"L'isle joyeuse, L. 106",Claude Debussy,2018
+52,54,A-whole-tone trichord,14,Les Collines d'Anacapri from Book I,Claude Debussy,2008
+53,55,enharmonic equivalent to major triad above F#,22,"Prelude No. 24 ""Fireworks""",Claude Debussy,2008
+54,56,G-major triad,38,"Prelude No. 7, Book II, La terrasse des audiences du clair de lune",Claude Debussy,2018
+55,57,G#-augmented seventh chord,24,"Preludes Book II: “Feux d'artifice,” L 123, No. 12",Claude Debussy,2014
+56,58,C-incomplete dominant-seventh chord,49,"Preludes No. 2, 6, 12",Claude Debussy,2004
+57,59,Bb-chromatic trimirror,31,"Preludes No. 2, 6, 12",Claude Debussy,2004
+58,60,C#-major-second major tetrachord,10,"Preludes, Book II, III - La puerta del vino",Claude Debussy,2013
+59,61,E-major-minor trichord,33,"Preludes, Book II, L 123 (Complete)",Claude Debussy,2014
+60,62,D-perfect-fourth minor tetrachord,9,"Preludes, Book II, L 123, IV. «Les fées sont d'exquises danseuses»",Claude Debussy,2015
+61,63,enharmonic equivalent to major triad above C#,42,"Preludes, Book II, VII - La terasse des audiences du clair de lune",Claude Debussy,2013
+62,64,C#-chromatic trimirror,68,PreludesBII/7-12,Claude Debussy,2006
+63,65,C#-quartal trichord,64,Three Etudes,Claude Debussy,2006
+64,66,C#-tritone-fourth,19,"Prelude, Fugue et Variation, Op. 18, Arrangement Delle Vigne",César Franck,2018
+65,67,A-incomplete dominant-seventh chord,22,"Prélude, chorale, et fugue, M. 21",César Franck,2014
+66,68,C-whole-tone trichord,7,Sonata K. 466,Domenico Scarlatti,2008
+67,69,B-minor triad,6,"Sonata in B Minor, K. 197",Domenico Scarlatti,2009
+68,70,enharmonic equivalent to diminished triad above C#,1,"Sonata in B Minor, K. 27",Domenico Scarlatti,2009
+69,71,enharmonic equivalent to diminished triad above C#,1,"Sonata in B Minor, K. 87",Domenico Scarlatti,2018
+70,72,F#-tritone-fourth,3,"Sonata in B Minor, K. 87",Domenico Scarlatti,2014
+71,73,B-minor triad,4,"Sonata in B Minor, L. 33",Domenico Scarlatti,2009
+72,74,A-minor triad,33,"Sonata in C Major, K. 179",Domenico Scarlatti,2009
+73,75,enharmonic equivalent to minor triad above F,8,"Sonata in C Major, K. 513",Domenico Scarlatti,2014
+74,76,G-incomplete dominant-seventh chord,8,"Sonata in C Minor, K. 84",Domenico Scarlatti,2014
+75,77,E-incomplete minor-seventh chord,51,"Sonata in D Major, K. 119",Domenico Scarlatti,2009
+76,78,A-major triad,13,"Sonata in D Major, K. 145",Domenico Scarlatti,2014
+77,79,A-incomplete dominant-seventh chord,14,"Sonata in D Major, K. 430",Domenico Scarlatti,2014
+78,80,C#-tritone-fourth,24,"Sonata in D Major, K. 576",Domenico Scarlatti,2009
+79,81,Bb-major triad,5,"Sonata in D Minor, K. 1",Domenico Scarlatti,2014
+80,82,E-diminished triad,57,"Sonata in D Minor, K. 141",Domenico Scarlatti,2018
+81,83,G-quartal trichord,44,"Sonata in D Minor, K. 141",Domenico Scarlatti,2014
+82,84,A-minor triad,4,"Sonata in G Major, K. 146",Domenico Scarlatti,2009
+83,85,F-incomplete major-seventh chord,3,"Sonata in G Major, K. 455",Domenico Scarlatti,2017
+84,86,F-major triad,10,"Lyric Piece in A Minor, “Waltz,” Op. 12 No. 2",Edvard Grieg,2014
+85,87,A-whole-tone trichord,21,"Lyric Piece in E Minor, “Valse-Impromptu,” Op. 47 No.1",Edvard Grieg,2014
+86,88,A-incomplete dominant-seventh chord,4,"Lyric Piece in E Minor, “Waltz,” Op. 38 No. 7",Edvard Grieg,2014
+87,89,E-incomplete minor-seventh chord,176,Variations Serieuses Op. 54,Felix Mendelssohn,2017
+88,90,D-minor triad,192,Variations Serieuses Op. 54,Felix Mendelssohn,2017
+89,91,D-minor triad,174,Variations Serieuses Op. 54,Felix Mendelssohn,2017
+90,92,D-minor triad,157,Variations Serieuses Op. 54,Felix Mendelssohn,2017
+91,93,D-minor triad,51,Variations Serieuses Op. 54,Felix Mendelssohn,2017
+92,94,D-minor triad,124,"Variations Serieuses, Op. 54",Felix Mendelssohn,2008
+93,95,D-minor triad,157,"Variations Serieuses, Op. 54",Felix Mendelssohn,2008
+94,96,G-incomplete minor-seventh chord,96,"Variations Serieuses, Op. 54",Felix Mendelssohn,2008
+95,97,D-minor triad,161,"Variations Serieuses, Op. 54",Felix Mendelssohn,2015
+96,98,D-minor triad,116,"Variations Serieuses, Op. 54",Felix Mendelssohn,2015
+97,99,D-minor triad,127,"Variations Serieuses, Op. 54",Felix Mendelssohn,2013
+98,100,G-minor triad,84,"Variations Serieuses, Op. 54",Felix Mendelssohn,2013
+99,101,E-incomplete minor-seventh chord,173,"Variations Serieuses, Op. 54",Felix Mendelssohn,2013
+100,102,E-incomplete minor-seventh chord,120,"Variations Serieuses, Op. 54",Felix Mendelssohn,2013
+101,103,E-incomplete minor-seventh chord,110,"Variations Serieuses, Op. 54",Felix Mendelssohn,2013
+102,104,E-incomplete minor-seventh chord,126,"Variations Serieuses, Op. 54",Felix Mendelssohn,2011
+103,105,D-minor triad,155,"Variations Serieuses, Op. 54",Felix Mendelssohn,2011
+104,106,D-minor triad,175,"Variations Serieuses, Op. 54",Felix Mendelssohn,2011
+105,107,D-minor triad,140,"Variations Serieuses, Op. 54",Felix Mendelssohn,2011
+106,108,E-incomplete minor-seventh chord,170,"Variations Seriouses, Op. 54",Felix Mendelssohn,2011
+107,109,E-incomplete minor-seventh chord,177,"Variations serieuses, Op. 54",Felix Mendelssohn,2008
+108,110,D-minor triad,162,"Variations sérieuses, Op. 54",Felix Mendelssohn,2015
+109,111,D-minor triad,180,"Variations sérieuses, Op. 54",Felix Mendelssohn,2015
+110,112,E-incomplete minor-seventh chord,167,"Variations sérieuses, Op. 54",Felix Mendelssohn,2015
+111,113,G-minor triad,89,Scherzo,Felix Mendelssohn / Sergei Rachmaninoff,2006
+112,114,G-minor triad,84,Scherzo from A Midsummer Night's Dream,Felix Mendelssohn / Sergei Rachmaninoff,2011
+113,115,G-minor triad,96,"Scherzo from Mendelssohn's ""Midsummer Night's Dream""",Felix Mendelssohn / Sergei Rachmaninoff,2008
+114,116,enharmonic equivalent to minor triad above G#,56,"""La Campanella""",Franz Liszt,2008
+115,117,enharmonic equivalent to minor triad above G#,53,"""La Campanella""",Franz Liszt,2008
+116,118,enharmonic equivalent to minor triad above Eb,75,"""La Campanella""",Franz Liszt,2008
+117,119,enharmonic equivalent to major triad above Bb,30,Annes de Pelerinage III: Le jeux d'eau a la Villa d'Este,Franz Liszt,2011
+118,120,G-quartal trichord,182,"Après une lecture de Dante: Fantasia quasi Sonata, S.161, No. 7",Franz Liszt,2014
+119,121,A-all-interval tetrachord,160,"Aprés une lecture de Dante: Fantasia quasi Sonata, S.161, No. 7",Franz Liszt,2014
+120,122,D-whole-tone trichord,125,"Ballade No. 2 in B Minor, S 171",Franz Liszt,2013
+121,123,G#-Italian augmented sixth chord,113,"Ballade No. 2 in B Minor, S 171",Franz Liszt,2013
+122,124,C#-minor triad,75,"Ballade No. 2 in B Minor, S. 171",Franz Liszt,2014
+123,125,E-whole-tone pentachord,120,"Ballade No. 2 in B Minor, S. 171",Franz Liszt,2011
+124,126,E-incomplete half-diminished seventh chord,21,"Concert Etude ""La Leggierezza""",Franz Liszt,2013
+125,127,F-major triad,2,"Concert Etude ""Un Sospiro""",Franz Liszt,2008
+126,128,G-major-minor trichord,28,"Concert Etude No. 2 La Leggierezza, S. 144",Franz Liszt,2015
+127,129,F-major triad,22,"Concert Etude No. 2, ""La Leggierezza"", S. 144/2",Franz Liszt,2011
+128,130,F-major triad,46,"Concert Etude No. 2, ""La Leggierezza"", S. 144/2",Franz Liszt,2011
+129,131,enharmonic equivalent to major triad above C#,27,"Concert Etude No. 2, “La leggierezza"", S. 144",Franz Liszt,2015
+130,132,enharmonic equivalent to minor triad above F#,7,"Concert Etude No. 3 in D-flat Major, ""Un Sospiro"", S. 144/3",Franz Liszt,2011
+131,133,enharmonic equivalent to major triad above G#,6,"Concert Etude No. 3 in D-flat Major, ""Un Sospiro"", S. 144/3",Franz Liszt,2011
+132,134,D-major triad,251,Dante Sonata,Franz Liszt,2004
+133,135,D-major triad,226,Dante Sonata,Franz Liszt,2006
+134,136,D-major triad,285,Dante Sonata,Franz Liszt,2006
+135,137,D-major triad,260,Dante Sonata,Franz Liszt,2009
+136,138,D-major triad,153,Dante Sonata,Franz Liszt,2009
+137,139,A-major triad,75,"Grandes Etudes de Paganini, S. 141",Franz Liszt,2018
+138,140,enharmonic equivalent to minor triad above G#,47,"Grandes ètudes de Paganini No. 3 ""La Campanella"", S. 141",Franz Liszt,2015
+139,141,C#-whole-tone trichord,54,"Grandes ètudes de Paganini No. 3 ""La Campanella"", S. 141",Franz Liszt,2015
+140,142,enharmonic equivalent to minor triad above B,50,"Grandes ètudes de Paganini No. 3 La Campanella, S. 141",Franz Liszt,2015
+141,143,enharmonic equivalent to minor triad above B,45,"Grandes études de Paganini, No. 3 ""La campanella"", S.141/3",Franz Liszt,2017
+142,144,enharmonic equivalent to minor triad above B,47,"Grandes études de Paganini, No. 3 ""La campanella"", S.141/3",Franz Liszt,2017
+143,145,enharmonic equivalent to minor triad above B,53,"Grandes études de Paganini, No. 3 ""La campanella"", S.141/3",Franz Liszt,2017
+144,146,E-major triad,66,"Hungarian Rhapsody No. 10 in E-flat Major, S. 244/10",Franz Liszt,2015
+145,147,E-major triad,62,"Hungarian Rhapsody No. 10, S. 244/10",Franz Liszt,2011
+146,148,Bb-major triad,115,"Hungarian Rhapsody No. 6, S.244/6",Franz Liszt,2017
+147,149,Bb-major triad,100,"Hungarian Rhapsody No. 6, S.244/6",Franz Liszt,2017
+148,150,F-major-minor trichord,216,Mephisto Waltz,Franz Liszt,2006
+149,151,A-major triad,188,Mephisto Waltz No. 1,Franz Liszt,2004
+150,152,A-major triad,219,Mephisto Waltz No. 1,Franz Liszt,2004
+151,153,A-major triad,268,Mephisto Waltz No. 1,Franz Liszt,2009
+152,154,A-major triad,173,Mephisto Waltz No. 1,Franz Liszt,2013
+153,155,C#-minor triad,153,"Mephisto Waltz No. 1, S.514",Franz Liszt,2014
+154,156,A-major triad,283,"Mephisto Waltz No. 1, S.514",Franz Liszt,2014
+155,157,A-major triad,281,Mephisto-Waltz No. 1,Franz Liszt,2008
+156,158,enharmonic equivalent to minor triad above Eb,47,"Paganini Etude No. 3, S. 141/3 ""La Campanella""",Franz Liszt,2013
+157,159,enharmonic equivalent to minor triad above G#,44,"Paganini Etude No. 3, S. 141/3 ""La Campanella""",Franz Liszt,2013
+158,160,enharmonic equivalent to major triad above G#,38,"Paraphrase de concert sur Rigoletto, S.434",Franz Liszt,2017
+159,161,E-major triad,189,Polonaise in E Major,Franz Liszt,2008
+160,162,D-major triad,261,Rhapsodie Espagnole,Franz Liszt,2008
+161,163,D-major triad,264,Rhapsodie Espagnole,Franz Liszt,2008
+162,164,D-major triad,208,Rhapsodie Espagnole S.254,Franz Liszt,2011
+163,165,D-major triad,214,"Rhapsodie Espagnole, S. 254",Franz Liszt,2018
+164,166,D-major triad,248,"Rhapsodie Espagnole, S. 254",Franz Liszt,2015
+165,167,D-major triad,249,"Rhapsodie Espagnole, S. 254",Franz Liszt,2013
+166,168,D-major triad,203,"Rhapsodie Espagnole, S. 254",Franz Liszt,2013
+167,169,D-major triad,209,"Rhapsodie Espagnole, S.254",Franz Liszt,2014
+168,170,D-major triad,336,Rhapsody Esp.,Franz Liszt,2006
+169,171,D-major triad,280,Rhapsody Esp.,Franz Liszt,2006
+170,172,enharmonic equivalent to major triad above C#,72,Rigoletto Paraphrase,Franz Liszt,2009
+171,173,enharmonic equivalent to major triad above F,48,"Rigoletto Paraphrase, S. 434",Franz Liszt,2011
+172,174,enharmonic equivalent to major triad above C#,89,Rigoletto-Paraphrase,Franz Liszt,2008
+173,175,C#-diminished triad,204,"Sonata In B Minor, S. 178",Franz Liszt,2018
+174,176,enharmonic equivalent to major triad above Eb,181,Sonata in B Min.,Franz Liszt,2006
+175,177,enharmonic equivalent to major triad above B,185,Sonata in B Min.,Franz Liszt,2006
+176,178,enharmonic equivalent to major triad above F#,233,"Sonata in B Minor, S. 178",Franz Liszt,2009
+177,179,enharmonic equivalent to major triad above Eb,213,"Sonata in B Minor, S. 178",Franz Liszt,2009
+178,180,A-minor triad,229,"Sonata in B Minor, S. 178",Franz Liszt,2009
+179,181,F-major triad,246,"Sonata in B Minor, S. 178",Franz Liszt,2014
+180,182,E-major triad,14,Sonetto 104 del Petrarca,Franz Liszt,2009
+181,183,E-major triad,25,Sonetto 104 del Petrarca,Franz Liszt,2008
+182,184,D-major triad,260,Spanish Rhapsody,Franz Liszt,2004
+183,185,D-major triad,327,Spanish Rhapsody,Franz Liszt,2009
+184,186,G-major triad,177,Tarantella,Franz Liszt,2015
+185,187,G-major triad,128,Tarantella from Annees de Pelerinage 2eme Annee,Franz Liszt,2008
+186,188,G-major triad,132,"Tarantella, S. 162 No. 3 from Venezia e Napoli",Franz Liszt,2011
+187,189,G-major triad,82,"Tarantella, Venezia e Napoli in G Minor, S.159",Franz Liszt,2017
+188,190,E-dominant seventh chord,51,"Transcendental Etude No. 2, “Molto vivace""",Franz Liszt,2015
+189,191,D-major triad,135,"Transcendental Etude No. 4 ""Mazeppa""",Franz Liszt,2008
+190,192,D-major triad,158,"Transcendental Etude No. 4, ""Mazeppa""",Franz Liszt,2015
+191,193,enharmonic equivalent to diminished triad above F,68,"Transcendental Etude No. 5 ""Feux Follets""",Franz Liszt,2008
+192,194,Bb-major triad,69,"Transcendental Etude No. 5 ""Feux Follets""",Franz Liszt,2013
+193,195,E-major triad,89,"Transcendental Etude No. 5 ""Feux Follets""",Franz Liszt,2013
+194,196,F#-diminished triad,81,"Transcendental Etude No. 5 “Feux Follets,” S.139, No. 5",Franz Liszt,2014
+195,197,E-major triad,84,"Transcendental Etude No. 5, ""Feux Follets"", S. 139/5",Franz Liszt,2011
+196,198,C#-incomplete minor-seventh chord,28,"Trois Etudes de Concert ""La leggierezza"", S.144",Franz Liszt,2017
+197,199,D-major triad,173,"Valse de l'opera Faust de Charles Gounod, S.407",Franz Liszt,2017
+198,200,D-major triad,159,"Valse de l'opera Faust de Charles Gounod, S.407",Franz Liszt,2017
+199,201,enharmonic equivalent to major triad above F#,30,Venezia e Napoli,Franz Liszt,2011
+200,202,Eb-incomplete major-seventh chord,64,Venezia e Napoli,Franz Liszt,2011
+201,203,G-major triad,90,Venezia e Napoli,Franz Liszt,2011
+202,204,G-major triad,112,"Venezia e Napoli, S. 162",Franz Liszt,2018
+203,205,G-major triad,116,"Venezia e Napoli, S.162 (Complete)",Franz Liszt,2014
+204,206,D-major triad,123,"Études d'exécution transcendante, No. 4, ""Mazeppa"" S.139/4",Franz Liszt,2017
+205,207,D-major triad,132,"Études d'exécution transcendante, No. 4, ""Mazeppa"" S.139/4",Franz Liszt,2017
+206,208,A-incomplete dominant-seventh chord,48,"Études d'exécution transcendante, No. 5, ""Feux follets"" S.139/5",Franz Liszt,2017
+207,209,enharmonic equivalent to diminished triad above F#,132,Danse Macabre S555/R240,Franz Liszt / Camille Saint-Saëns,2011
+208,210,enharmonic equivalent to diminished triad above C#,56,Impromptu Op. 142 No. 1 F Minor,Franz Schubert,2008
+209,211,E-diminished triad,27,Impromptu Op. 142 No. 1 in F Minor,Franz Schubert,2008
+210,212,C#-diminished seventh chord,70,"Impromptu Op. 142 No. 1 in F Minor, D. 935",Franz Schubert,2017
+211,213,C-incomplete dominant-seventh chord,72,"Impromptu Op. 142 No. 1 in F Minor, D. 935",Franz Schubert,2017
+212,214,C-major-minor trichord,75,"Impromptu Op. 142 No. 1 in F Minor, D935",Franz Schubert,2013
+213,215,enharmonic equivalent to minor triad above G#,60,"Impromptu Op. 142 No. 1, in F Minor, D935",Franz Schubert,2011
+214,216,Bb-major triad,89,"Impromptu Op. 142 No. 3 in B-Flat Major, D935",Franz Schubert,2013
+215,217,Bb-major triad,46,Impromptu Op. 142 No. 3 in B-flat Major,Franz Schubert,2015
+216,218,F-incomplete dominant-seventh chord,85,Impromptu Op. 142 No. 3 in B-flat Major,Franz Schubert,2015
+217,219,Bb-major triad,76,Impromptu Op. 142 No. 3 in B-flat Major,Franz Schubert,2015
+218,220,Bb-major triad,29,Impromptu Op. 142 No. 3 in B-flat Major,Franz Schubert,2013
+219,221,F-incomplete dominant-seventh chord,83,"Impromptu Op. 142 No. 3 in B-flat Major, D. 935",Franz Schubert,2017
+220,222,Bb-major triad,87,"Impromptu Op. 142 No. 3 in B-flat Major, D. 935",Franz Schubert,2017
+221,223,Bb-major triad,72,"Impromptu Op. 142 No. 3 in B-flat Major, D935",Franz Schubert,2013
+222,224,F-incomplete dominant-seventh chord,31,"Impromptu Op. 142 No. 3 in B-flat Major, D935",Franz Schubert,2013
+223,225,F-incomplete dominant-seventh chord,66,"Impromptu Op. 142 No. 3 in B-flat Major, D935",Franz Schubert,2013
+224,226,F-incomplete dominant-seventh chord,45,"Impromptu Op. 142 No. 3 in B-flat Major, D935",Franz Schubert,2013
+225,227,Bb-major triad,78,"Impromptu Op. 142 No. 3, in B-Flat Major, D935",Franz Schubert,2011
+226,228,F-major triad,74,"Impromptu Op. 142 No. 3, in B-Flat Major, D935",Franz Schubert,2011
+227,229,Bb-major triad,41,"Impromptu Op. 142 No. 3, in B-Flat Major, D935",Franz Schubert,2011
+228,230,Bb-major triad,63,"Impromptu Op. 142 No. 3, in B-Flat Major, D935",Franz Schubert,2011
+229,231,C-major triad,91,Impromptu Op. 90 No. 1,Franz Schubert,2018
+230,232,C-major triad,112,Impromptu Op. 90 No. 1 in C Minor,Franz Schubert,2008
+231,233,C-major triad,112,Impromptu Op. 90 No. 1 in C Minor,Franz Schubert,2013
+232,234,C-major triad,63,"Impromptu Op. 90 No. 1 in C Minor, D. 899",Franz Schubert,2017
+233,235,C-major triad,93,"Impromptu Op. 90 No. 1, in C Minor, D899",Franz Schubert,2011
+234,236,G-incomplete dominant-seventh chord,63,"Impromptu Op. 90 No. 1, in C Minor, D899",Franz Schubert,2011
+235,237,enharmonic equivalent to minor triad above Eb,34,Impromptu Op. 90 No. 2,Franz Schubert,2008
+236,238,enharmonic equivalent to minor triad above Eb,27,Impromptu Op. 90 No. 2 E-flat Major,Franz Schubert,2008
+237,239,enharmonic equivalent to minor triad above Eb,28,Impromptu Op. 90 No. 2 in E-flat Major,Franz Schubert,2008
+238,240,Bb-major triad,40,Impromptu Op. 90 No. 2 in E-flat Major,Franz Schubert,2015
+239,241,Bb-major triad,42,"Impromptu Op. 90 No. 2 in E-flat Major, D. 899",Franz Schubert,2017
+240,242,enharmonic equivalent to minor triad above B,34,"Impromptu Op. 90 No. 2 in E-flat Major, D899",Franz Schubert,2013
+241,243,enharmonic equivalent to minor triad above G#,3,Impromptu Op. 90 No. 3 in G-flat,Franz Schubert,2008
+242,244,enharmonic equivalent to major triad above B,3,Impromptu Op. 90 No. 3 in G-flat Major,Franz Schubert,2008
+243,246,Eb-incomplete major-seventh chord,3,Impromptu Op. 90 No. 3 in G-flat Major,Franz Schubert,2015
+244,247,enharmonic equivalent to major triad above C#,4,Impromptu Op. 90 No. 3 in G-flat Major,Franz Schubert,2015
+245,248,enharmonic equivalent to major triad above F#,3,Impromptu Op. 90 No. 3 in G-flat Major,Franz Schubert,2015
+246,249,enharmonic equivalent to major triad above Eb,3,"Impromptu Op. 90 No. 3 in G-flat Major, D. 899",Franz Schubert,2017
+247,250,E-diminished triad,2,"Impromptu Op. 90 No. 3 in G-flat Major, D. 899",Franz Schubert,2017
+248,252,enharmonic equivalent to major triad above F#,6,"Impromptu Op. 90 No. 3, in G-flat Major, D899",Franz Schubert,2011
+249,253,enharmonic equivalent to major triad above C#,5,"Impromptu Op. 90 No. 3, in G-flat Major, D899",Franz Schubert,2011
+250,254,enharmonic equivalent to major triad above C#,1,"Impromptu Op. 90, No. 3, in G-flat Major, D899",Franz Schubert,2011
+251,255,F-major triad,38,"Impromptu Op.142 No.3, in B-Flat Major, D935",Franz Schubert,2013
+252,256,enharmonic equivalent to major triad above Bb,41,Impromptus Op. 90,Franz Schubert,2018
+253,258,F-major triad,131,Son. in Bb D.960,Franz Schubert,2006
+254,259,Bb-major triad,128,Son. in Bb D.960,Franz Schubert,2006
+255,260,F-major triad,116,Son. in Bb D.960,Franz Schubert,2006
+256,261,E-major triad,14,Son. in Bb D.961,Franz Schubert,2006
+257,262,enharmonic equivalent to major triad above C#,19,Son. in Bb D.961,Franz Schubert,2006
+258,263,enharmonic equivalent to major triad above C#,9,Son. in Bb D.961,Franz Schubert,2006
+259,264,Bb-major triad,73,Son. in Bb D.962,Franz Schubert,2006
+260,265,Bb-major triad,90,Son. in Bb D.962,Franz Schubert,2006
+261,266,Bb-major triad,76,Son. in Bb D.962,Franz Schubert,2006
+262,267,A-major triad,131,Sonata in A D959,Franz Schubert,2006
+263,268,A-major triad,125,Sonata in A D959,Franz Schubert,2006
+264,269,A-major triad,182,Sonata in A D959,Franz Schubert,2006
+265,270,B-incomplete dominant-seventh chord,14,Sonata in A D960,Franz Schubert,2006
+266,271,B-incomplete dominant-seventh chord,22,Sonata in A D960,Franz Schubert,2006
+267,272,C#-minor triad,20,Sonata in A D960,Franz Schubert,2006
+268,273,A-major triad,96,Sonata in A D961,Franz Schubert,2006
+269,274,E-incomplete dominant-seventh chord,56,Sonata in A D961,Franz Schubert,2006
+270,275,A-major triad,108,Sonata in A D961,Franz Schubert,2006
+271,276,A-major triad,48,Sonata in A D962,Franz Schubert,2006
+272,277,A-major triad,158,"Sonata in A Major, D. 959 (Complete)",Franz Schubert,2014
+273,278,A-major triad,182,"Sonata in A Major, D. 959 (Complete)",Franz Schubert,2014
+274,279,A-major triad,364,"Sonata in A Major, D. 959 (Complete)",Franz Schubert,2014
+275,280,A-major triad,173,"Sonata in A Major, D959",Franz Schubert,2018
+276,281,A-minor triad,83,Sonata in A Min.,Franz Schubert,2006
+277,282,C-major triad,80,Sonata in A Min.,Franz Schubert,2006
+278,283,A-major triad,95,Sonata in A Min.,Franz Schubert,2006
+279,284,A-minor triad,44,Sonata in A Min.,Franz Schubert,2006
+280,285,A-minor triad,159,Sonata in A Min.,Franz Schubert,2006
+281,286,C-major triad,131,Sonata in A Min.,Franz Schubert,2006
+282,287,A-major triad,134,Sonata in A Min.,Franz Schubert,2006
+283,288,E-major triad,49,Sonata in A Min.,Franz Schubert,2006
+284,289,A-minor triad,91,"Sonata in A Minor, D. 845",Franz Schubert,2009
+285,290,D-incomplete minor-seventh chord,40,"Sonata in A Minor, D. 846",Franz Schubert,2009
+286,291,E-dominant seventh chord,55,"Sonata in A Minor, D. 847",Franz Schubert,2009
+287,292,E-major triad,39,"Sonata in A Minor, D. 848",Franz Schubert,2009
+288,293,E-major triad,119,"Sonata in A Minor, D845",Franz Schubert,2018
+289,294,A-minor triad,149,"Sonata in A minor, D. 845 (Complete)",Franz Schubert,2014
+290,295,Bb-major triad,143,Sonata in B-flat Major D. 960,Franz Schubert,2009
+291,296,G-major triad,4,Sonata in B-flat Major D. 961,Franz Schubert,2009
+292,297,F-incomplete dominant-seventh chord,63,Sonata in B-flat Major D. 962,Franz Schubert,2009
+293,298,Bb-major triad,57,Sonata in B-flat Major D. 963,Franz Schubert,2009
+294,299,F-major triad,129,"Sonata in B-flat Major, D. 960",Franz Schubert,2009
+295,300,Bb-major triad,158,"Sonata in B-flat Major, D. 960 (Complete)",Franz Schubert,2014
+296,301,Bb-major triad,171,"Sonata in B-flat Major, D. 960 (Complete)",Franz Schubert,2014
+297,302,enharmonic equivalent to major triad above F,19,"Sonata in B-flat Major, D. 961",Franz Schubert,2009
+298,303,Bb-major triad,49,"Sonata in B-flat Major, D. 962",Franz Schubert,2009
+299,304,Bb-major triad,33,"Sonata in B-flat Major, D. 963",Franz Schubert,2009
+300,305,Bb-major triad,154,"Sonata in B-flat Major, D960",Franz Schubert,2004
+301,306,enharmonic equivalent to major triad above F,17,"Sonata in B-flat Major, D960",Franz Schubert,2004
+302,307,Bb-major triad,58,"Sonata in B-flat Major, D960",Franz Schubert,2004
+303,308,Bb-major triad,50,"Sonata in B-flat Major, D960",Franz Schubert,2004
+304,309,F-incomplete dominant-seventh chord,120,"Sonata in B-flat Major, D960",Franz Schubert,2004
+305,310,enharmonic equivalent to major triad above C#,22,"Sonata in B-flat Major, D960",Franz Schubert,2004
+306,311,Bb-major triad,49,"Sonata in B-flat Major, D960",Franz Schubert,2004
+307,312,Bb-major triad,38,"Sonata in B-flat Major, D960",Franz Schubert,2004
+308,313,Bb-major triad,135,"Sonata in B-flat Major, D960",Franz Schubert,2018
+309,314,Bb-major triad,134,"Sonata in B-flat Major, D960",Franz Schubert,2018
+310,315,C-minor triad,68,"Sonata in C  Minor, D. 958",Franz Schubert,2009
+311,316,enharmonic equivalent to major triad above F,52,"Sonata in C  Minor, D. 959",Franz Schubert,2009
+312,317,C-minor triad,22,"Sonata in C  Minor, D. 960",Franz Schubert,2009
+313,318,C-minor triad,138,"Sonata in C  Minor, D. 961",Franz Schubert,2009
+314,319,C-minor triad,70,"Sonata in C Minor, D. 958",Franz Schubert,2009
+315,320,G#-major-minor trichord,71,"Sonata in C Minor, D. 958",Franz Schubert,2009
+316,321,C-minor triad,134,"Sonata in C Minor, D. 958 (Complete)",Franz Schubert,2014
+317,322,C-minor triad,78,"Sonata in C Minor, D. 958 (Complete)",Franz Schubert,2014
+318,323,C#-Italian augmented sixth chord,40,"Sonata in C Minor, D. 959",Franz Schubert,2009
+319,324,enharmonic equivalent to major triad above Eb,46,"Sonata in C Minor, D. 959",Franz Schubert,2009
+320,325,enharmonic equivalent to minor triad above F,27,"Sonata in C Minor, D. 960",Franz Schubert,2009
+321,326,E-diminished triad,19,"Sonata in C Minor, D. 960",Franz Schubert,2009
+322,327,G-major triad,137,"Sonata in C Minor, D. 961",Franz Schubert,2009
+323,328,C-minor triad,117,"Sonata in C Minor, D. 961",Franz Schubert,2009
+324,329,C-minor triad,74,"Sonata in C Minor, D958",Franz Schubert,2004
+325,330,enharmonic equivalent to major triad above G#,28,"Sonata in C Minor, D958",Franz Schubert,2004
+326,331,C-minor triad,124,"Sonata in C Minor, D958",Franz Schubert,2004
+327,332,C-minor triad,69,"Sonata in C Minor, D958",Franz Schubert,2004
+328,333,enharmonic equivalent to major triad above G#,35,"Sonata in C Minor, D958",Franz Schubert,2004
+329,334,C-minor triad,135,"Sonata in C Minor, D958",Franz Schubert,2004
+330,335,C-minor triad,76,"Sonata in C Minor, D958",Franz Schubert,2004
+331,336,C#-Italian augmented sixth chord,33,"Sonata in C Minor, D958",Franz Schubert,2004
+332,337,C-minor triad,27,"Sonata in C Minor, D958",Franz Schubert,2004
+333,338,C-minor triad,135,"Sonata in C Minor, D958",Franz Schubert,2004
+334,339,G-major triad,95,"Sonata in C Minor, D958",Franz Schubert,2018
+335,340,C-minor triad,95,"Sonata in C Minor, D958",Franz Schubert,2018
+336,341,G-major triad,124,"Sonata in C Minor, D958",Franz Schubert,2018
+337,342,G-major triad,101,"Sonata in C Minor, D958",Franz Schubert,2018
+338,343,D-major triad,198,"Sonata in D Major, D. 850 (Complete)",Franz Schubert,2014
+339,344,D-major triad,116,"Sonata in D Major, D850",Franz Schubert,2004
+340,345,D-major triad,121,"Sonata in D Major, D850",Franz Schubert,2004
+341,346,D-major triad,131,"Sonata in D Major, D850",Franz Schubert,2004
+342,347,D-major triad,75,"Sonata in D Major, D850",Franz Schubert,2004
+343,348,A-incomplete dominant-seventh chord,175,"Sonata in D Major, D850",Franz Schubert,2018
+344,349,G-major triad,96,Sonata in G Major D894,Franz Schubert,2018
+345,350,C-quartal trichord,120,Sonata in G Major D894,Franz Schubert,2018
+346,351,G-major triad,109,Sonata in G Major D894,Franz Schubert,2018
+347,352,G-major triad,85,"Sonata in G Major, D 894",Franz Schubert,2004
+348,353,A-incomplete dominant-seventh chord,34,"Sonata in G Major, D 894",Franz Schubert,2004
+349,354,enharmonic equivalent to diminished triad above Bb,69,"Sonata in G Major, D 894",Franz Schubert,2004
+350,355,A-incomplete half-diminished seventh chord,108,"Sonata in G Major, D 894",Franz Schubert,2004
+351,356,G-major triad,139,"Sonata in G Major, D. 894",Franz Schubert,2009
+352,357,F#-minor-second diminished tetrachord,157,"Sonata in G Major, D. 894",Franz Schubert,2009
+353,358,A-incomplete dominant-seventh chord,52,"Sonata in G Major, D. 895",Franz Schubert,2009
+354,359,A-incomplete dominant-seventh chord,41,"Sonata in G Major, D. 895",Franz Schubert,2009
+355,360,enharmonic equivalent to diminished triad above Bb,81,"Sonata in G Major, D. 896",Franz Schubert,2009
+356,361,enharmonic equivalent to diminished triad above Bb,74,"Sonata in G Major, D. 896",Franz Schubert,2009
+357,362,E-incomplete minor-seventh chord,166,"Sonata in G Major, D. 897",Franz Schubert,2009
+358,363,G-major triad,148,"Sonata in G Major, D. 897",Franz Schubert,2009
+359,364,G-major triad,103,"Sonata in G Major, D894",Franz Schubert,2004
+360,365,G-major triad,158,"Sonata in G Major, D894",Franz Schubert,2004
+361,366,F#-diminished triad,111,"Sonata in G Major, D894",Franz Schubert,2004
+362,367,E-diminished triad,43,"Sonata in G Major, D894",Franz Schubert,2004
+363,368,G-major triad,242,"Sonata in G Major, D894",Franz Schubert,2004
+364,369,enharmonic equivalent to major triad above G#,7,Die Forelle,Franz Schubert / Franz Liszt,2011
+365,370,C-major triad,33,"Fruelingsglaube, Die Junge Nonne",Franz Schubert / Franz Liszt,2006
+366,371,E-minor triad,73,"Song Transcriptions: Aufenthalt, Gretchen am Spinnrade, Standchen von Shakespeare, Der Erlkonig",Franz Schubert / Franz Liszt,2004
+367,372,Eb-major triad,32,"Song Transcriptions: Aufenthalt, Gretchen am Spinnrade, Standchen von Shakespeare, Der Erlkonig",Franz Schubert / Franz Liszt,2004
+368,373,D-major triad,17,"Staendchen from Schwannengesang, R245/7",Franz Schubert / Franz Liszt,2011
+369,374,Bb-major triad,60,"Standchen, S. 558, NO. 9, ""Horch, horch! Die Lerch""",Franz Schubert / Franz Liszt,2011
+370,375,enharmonic equivalent to major triad above Bb,43,Moment Musical Op. 94 No. 3 in F-sharp Minor,Franz Schubert / Leopold Godowsky,2015
+371,376,B-diminished triad,162,Liebesfreud,Fritz Kreisler / Sergei Rachmaninoff,2011
+372,377,B-minor triad,191,"12 Etudes, Op. 25",Frédéric Chopin,2004
+373,378,G-incomplete dominant-seventh chord,26,"12 Etudes, Op. 25",Frédéric Chopin,2004
+374,379,D-minor triad,71,"24 Preludes, Op. 28",Frédéric Chopin,2004
+375,380,Eb-major triad,137,"Andante Spianato and Grand Polonaise Brilliante, Op. 22",Frédéric Chopin,2008
+376,381,Eb-major triad,86,"Andante Spianato and Grand Polonaise Brilliante, Op. 22",Frédéric Chopin,2008
+377,382,Eb-major triad,159,"Andante Spianato and Grande Polonaise Brillante, Op. 22",Frédéric Chopin,2009
+378,383,Eb-major triad,162,"Andante Spianato and Grande Polonaise Brillante, Op. 22",Frédéric Chopin,2009
+379,384,Eb-major triad,147,"Andante Spianato et Grande Polonaise Brillante, Op. 22",Frédéric Chopin,2011
+380,385,Eb-major triad,149,"Andante Spianato et Grande Polonaise Brillante, Op. 22",Frédéric Chopin,2011
+381,386,Eb-major triad,109,"Andante spianato e grande polonaise, Op. 22",Frédéric Chopin,2017
+382,387,Eb-major triad,133,"Andante spianato e grande polonaise, Op. 22",Frédéric Chopin,2017
+383,388,Eb-major triad,149,"Andante spianato et grande polonaise brillante, Op. 22",Frédéric Chopin,2014
+384,389,Eb-major triad,148,"Andante spianato et grande polonaise brillante, Op. 22",Frédéric Chopin,2015
+385,390,Eb-major triad,153,"Andante spianato et grande polonaise brillante, Op. 22",Frédéric Chopin,2015
+386,391,Eb-major triad,164,"Andante spianato et grande polonaise brillante, Op. 22",Frédéric Chopin,2013
+387,392,C-dominant seventh chord,108,Ballade 4 Op. 52,Frédéric Chopin,2006
+388,393,G-minor triad,94,"Ballade No. 1 in G Minor, Op. 23",Frédéric Chopin,2004
+389,394,G-minor triad,55,"Ballade No. 1 in G Minor, Op. 23",Frédéric Chopin,2004
+390,395,G-minor triad,86,"Ballade No. 1 in G Minor, Op. 23",Frédéric Chopin,2004
+391,396,C-major-minor trichord,70,"Ballade No. 1 in G Minor, Op. 23",Frédéric Chopin,2015
+392,397,G-minor triad,61,"Ballade No. 1 in G Minor, Op. 23",Frédéric Chopin,2013
+393,398,G-minor triad,94,"Ballade No. 1 in G Minor, Op. 23",Frédéric Chopin,2013
+394,399,G-minor triad,92,"Ballade No. 1 in G Minor, Op. 23",Frédéric Chopin,2011
+395,400,G-minor triad,69,"Ballade No. 1 in G Minor, Op. 23",Frédéric Chopin,2011
+396,401,G-minor triad,74,"Ballade No. 1 in G Minor, Op. 23",Frédéric Chopin,2011
+397,402,G-minor triad,81,"Ballade No. 1 in G Minor, Op. 23",Frédéric Chopin,2017
+398,403,E-incomplete dominant-seventh chord,76,Ballade No. 2 in F Major,Frédéric Chopin,2008
+399,404,D-minor triad,91,"Ballade No. 2 in F Major, Op. 38",Frédéric Chopin,2009
+400,405,D-minor triad,47,"Ballade No. 2 in F Major, Op. 38",Frédéric Chopin,2008
+401,406,D-minor triad,65,"Ballade No. 2 in F Major, Op. 38",Frédéric Chopin,2017
+402,407,C#-German augmented sixth chord,90,"Ballade No. 3 in A-flat Major, Op. 47",Frédéric Chopin,2008
+403,408,C#-Italian augmented sixth chord,93,"Ballade No. 3 in A-flat Major, Op. 47",Frédéric Chopin,2011
+404,409,C-dominant seventh chord,96,"Ballade No. 4 in F Minor, Op. 52",Frédéric Chopin,2008
+405,410,E-diminished triad,47,"Ballade No. 4 in F Minor, Op. 52",Frédéric Chopin,2008
+406,411,enharmonic equivalent to minor triad above F,69,"Ballade No. 4 in F Minor, Op. 52",Frédéric Chopin,2014
+407,412,C-dominant seventh chord,88,"Ballade No. 4 in F Minor, Op. 52",Frédéric Chopin,2013
+408,413,enharmonic equivalent to minor triad above F,62,"Ballade No. 4 in F Minor, Op. 52",Frédéric Chopin,2011
+409,414,C-major triad,54,"Ballade No. 4 in F Minor, Op. 52",Frédéric Chopin,2017
+410,415,C-dominant seventh chord,83,"Ballade No. 4 in F minor, Op. 52",Frédéric Chopin,2008
+411,416,enharmonic equivalent to diminished triad above F,54,Barcarolle in F#,Frédéric Chopin,2006
+412,417,C#-incomplete dominant-seventh chord,56,"Barcarolle in F-sharp Major, Op. 60",Frédéric Chopin,2013
+413,418,enharmonic equivalent to major triad above C#,59,"Barcarolle, Op. 60",Frédéric Chopin,2009
+414,419,E-tritone-fourth,77,"Barcarolle, Op. 60",Frédéric Chopin,2008
+415,420,F#-incomplete major-seventh chord,91,"Barcarolle, Op. 60",Frédéric Chopin,2013
+416,421,enharmonic equivalent to minor triad above G#,43,"Barcarolle, Op. 60",Frédéric Chopin,2017
+417,422,C#-whole-tone trichord,141,"Complete Etudes, Opus 25",Frédéric Chopin,2004
+418,423,C-major triad,33,"Complete Etudes, Opus 25",Frédéric Chopin,2004
+419,426,F-whole-tone trichord,1,Etude Op. 10 No. 1,Frédéric Chopin,2015
+420,427,C-incomplete major-seventh chord,2,Etude Op. 10 No. 1,Frédéric Chopin,2015
+421,432,F-whole-tone trichord,33,Etude Op. 10 No. 10 in A-flat Major,Frédéric Chopin,2017
+422,433,D-major-minor trichord,42,Etude Op. 10 No. 2,Frédéric Chopin,2015
+423,434,D-minor triad,32,Etude Op. 10 No. 2,Frédéric Chopin,2013
+424,435,A-quartal trichord,30,Etude Op. 10 No. 2 in A Minor,Frédéric Chopin,2017
+425,436,C#-minor triad,32,Etude Op. 10 No. 4,Frédéric Chopin,2013
+426,437,C#-minor triad,39,Etude Op. 10 No. 4,Frédéric Chopin,2013
+427,438,A-incomplete major-seventh chord,29,Etude Op. 10 No. 4 in C-Sharp Minor,Frédéric Chopin,2011
+428,439,C#-quartal trichord,33,Etude Op. 10 No. 4 in C-Sharp Minor,Frédéric Chopin,2011
+429,440,C#-minor triad,33,Etude Op. 10 No. 4 in C-Sharp Minor,Frédéric Chopin,2011
+430,441,C#-minor triad,37,Etude Op. 10 No. 4 in C-sharp Minor,Frédéric Chopin,2008
+431,442,G#-major-minor trichord,25,Etude Op. 10 No. 4 in C-sharp Minor,Frédéric Chopin,2017
+432,443,C#-minor triad,29,Etude Op. 10 No. 4 in C-sharp Minor,Frédéric Chopin,2017
+433,444,C#-minor triad,15,Etude Op. 10 No. 4 in C-sharp Minor,Frédéric Chopin,2017
+434,445,F-major triad,8,Etude Op. 10 No. 8,Frédéric Chopin,2015
+435,446,D-incomplete minor-seventh chord,13,Etude Op. 10 No. 8,Frédéric Chopin,2013
+436,447,A-major triad,10,Etude Op. 10 No. 8 in F Major,Frédéric Chopin,2008
+437,448,D-minor triad,11,Etude Op. 10 No. 8 in F Major,Frédéric Chopin,2011
+438,449,A-major triad,10,Etude Op. 10 No. 8 in F Major,Frédéric Chopin,2011
+439,452,enharmonic equivalent to major triad above G#,2,Etude Op. 25 No. 1 in A-flat Major,Frédéric Chopin,2017
+440,454,enharmonic equivalent to major triad above F#,23,Etude Op. 25 No. 10,Frédéric Chopin,2013
+441,455,B-minor triad,35,Etude Op. 25 No. 10 in B Minor,Frédéric Chopin,2011
+442,456,B-minor triad,32,Etude Op. 25 No. 10 in B Minor,Frédéric Chopin,2011
+443,457,enharmonic equivalent to major triad above F#,31,Etude Op. 25 No. 10 in B Minor,Frédéric Chopin,2017
+444,458,A-minor triad,22,Etude Op. 25 No. 11,Frédéric Chopin,2015
+445,459,A-minor triad,40,Etude Op. 25 No. 11,Frédéric Chopin,2015
+446,460,A-minor triad,36,Etude Op. 25 No. 11,Frédéric Chopin,2013
+447,461,B-half-diminished seventh chord,20,Etude Op. 25 No. 11 in A Minor,Frédéric Chopin,2008
+448,462,A-minor triad,20,Etude Op. 25 No. 11 in A Minor,Frédéric Chopin,2011
+449,463,A-minor triad,41,Etude Op. 25 No. 11 in A Minor,Frédéric Chopin,2011
+450,464,A-minor triad,36,Etude Op. 25 No. 11 in A Minor,Frédéric Chopin,2011
+451,465,A-minor triad,21,Etude Op. 25 No. 11 in A Minor,Frédéric Chopin,2011
+452,466,A-minor triad,28,Etude Op. 25 No. 11 in A Minor,Frédéric Chopin,2017
+453,467,E-incomplete minor-seventh chord,3,Etude Op. 25 No. 12,Frédéric Chopin,2015
+454,468,F-incomplete major-seventh chord,4,Etude Op. 25 No. 12,Frédéric Chopin,2015
+455,469,C-major triad,6,Etude Op. 25 No. 12 in C Minor,Frédéric Chopin,2011
+456,470,E-major-minor trichord,24,Etude Op. 25 No. 5 in E Minor,Frédéric Chopin,2008
+457,471,enharmonic equivalent to major triad above G#,54,Etude Op. 25 No. 6,Frédéric Chopin,2015
+458,472,enharmonic equivalent to major triad above G#,53,Etude Op. 25 No. 6,Frédéric Chopin,2013
+459,473,enharmonic equivalent to major triad above Eb,50,Etude Op. 25 No. 6 in G-sharp Minor,Frédéric Chopin,2011
+460,474,enharmonic equivalent to major triad above Eb,31,Etude Op. 25 No. 6 in G-sharp Minor,Frédéric Chopin,2011
+461,475,A-minor triad,31,"Etude in A Minor, Op. 25, No. 11",Frédéric Chopin,2014
+462,476,G-incomplete minor-seventh chord,11,"Etude in F Major, Op. 10, No. 8",Frédéric Chopin,2014
+463,477,F-major triad,13,Etudes Op. 10 Nos. 8,Frédéric Chopin,2011
+464,478,E-major triad,104,Etudes Op. 25 Nos. 1-5,Frédéric Chopin,2013
+465,479,C#-minor triad,14,Mazurka Op. 50 No. 3 in C-sharp Minor,Frédéric Chopin,2013
+466,480,C#-minor triad,39,"Mazurka in C-sharp Minor, Op. 50 No. 3",Frédéric Chopin,2013
+467,481,E-incomplete dominant-seventh chord,1,"Nocturne in C-Sharp Minor, Op. Posth.",Frédéric Chopin,2014
+468,482,D-quartal trichord,30,"Preludes, Book II, L 123, VI. Général Lavine - eccentric",Frédéric Chopin,2015
+469,483,D-minor triad,81,"Preludes, Op.28",Frédéric Chopin,2009
+470,484,enharmonic equivalent to major triad above C#,78,"Scherzo No. 2 in B-Flat Minor, Op.31",Frédéric Chopin,2014
+471,485,enharmonic equivalent to major triad above C#,44,"Scherzo No. 2 in B-flat Major, Op. 31",Frédéric Chopin,2015
+472,486,F-whole-tone trichord,53,"Scherzo No. 2 in B-flat Major, Op. 31",Frédéric Chopin,2017
+473,487,enharmonic equivalent to major triad above C#,59,"Scherzo No. 2 in B-flat Major, Op. 31",Frédéric Chopin,2017
+474,488,enharmonic equivalent to major triad above G#,56,"Scherzo No. 2 in B-flat Minor, Op. 31",Frédéric Chopin,2008
+475,489,enharmonic equivalent to major triad above F,79,"Scherzo No. 2 in B-flat Minor, Op. 31",Frédéric Chopin,2015
+476,490,enharmonic equivalent to major triad above C#,89,"Scherzo No. 2 in B-flat Minor, Op. 31",Frédéric Chopin,2015
+477,491,enharmonic equivalent to major triad above C#,78,"Scherzo No. 2 in B-flat Minor, Op. 31",Frédéric Chopin,2015
+478,492,enharmonic equivalent to major triad above F,71,"Scherzo No. 2 in B-flat Minor, Op. 31",Frédéric Chopin,2015
+479,493,enharmonic equivalent to major triad above F,66,"Scherzo No. 2 in B-flat Minor, Op. 31",Frédéric Chopin,2017
+480,494,enharmonic equivalent to major triad above F,65,"Scherzo No. 2 in B-flat Minor, Op.31",Frédéric Chopin,2009
+481,495,enharmonic equivalent to major triad above F,49,Scherzo No. 3,Frédéric Chopin,2006
+482,496,enharmonic equivalent to major triad above F,60,"Scherzo No. 3 in C-sharp Minor, Op. 39",Frédéric Chopin,2015
+483,497,E-major triad,62,"Scherzo No. 4  in E Major, Op. 54",Frédéric Chopin,2011
+484,498,E-major triad,57,"Scherzo No. 4 in E Major, Op. 54",Frédéric Chopin,2004
+485,499,E-major triad,50,"Scherzo No. 4 in E Major, Op. 54",Frédéric Chopin,2009
+486,500,E-major triad,54,"Scherzo No. 4 in E Major, Op. 54",Frédéric Chopin,2008
+487,501,E-major triad,62,"Scherzo No. 4 in E Major, Op. 54",Frédéric Chopin,2014
+488,502,E-major triad,75,"Scherzo No. 4 in E Major, Op. 54",Frédéric Chopin,2015
+489,503,E-major triad,68,"Scherzo No. 4 in E Major, Op. 54",Frédéric Chopin,2013
+490,504,E-major triad,72,"Scherzo No. 4 in E Major, Op. 54",Frédéric Chopin,2017
+491,505,A-incomplete dominant-seventh chord,45,"Scherzo No. 4 in E Major, Op. 54",Frédéric Chopin,2017
+492,506,E-major triad,75,"Scherzo No. 4 in E Major, Op. 54",Frédéric Chopin,2017
+493,507,E-major triad,78,"Scherzo No. 4 in E Major, Op. 54",Frédéric Chopin,2017
+494,508,enharmonic equivalent to major triad above F#,52,Sonata 3 Op. 58,Frédéric Chopin,2006
+495,509,enharmonic equivalent to major triad above Eb,60,Sonata No. 3,Frédéric Chopin,2006
+496,510,E-incomplete dominant-seventh chord,62,"Sonata No. 3 in B Minor, Op. 58",Frédéric Chopin,2004
+497,511,G-major triad,5,"Sonata No. 3 in B Minor, Op. 58",Frédéric Chopin,2004
+498,512,enharmonic equivalent to major triad above B,65,"Sonata No. 3 in B Minor, Op. 58",Frédéric Chopin,2004
+499,513,enharmonic equivalent to major triad above Eb,45,"Sonata No. 3 in B Minor, Op. 58",Frédéric Chopin,2018
+500,514,enharmonic equivalent to major triad above B,48,"Sonata No. 3 in B Minor, Op. 58",Frédéric Chopin,2018
+501,515,enharmonic equivalent to major triad above Eb,61,"Sonata No. 3 in B Minor, Op. 58 (Complete)",Frédéric Chopin,2014
+502,516,enharmonic equivalent to major triad above B,51,"Sonata No. 3 in B Minor, Op. 58 (Complete)",Frédéric Chopin,2014
+503,517,enharmonic equivalent to major triad above B,28,"Sonata No. 3 in B Minor, Op. 58, 1st mov.",Frédéric Chopin,2013
+504,518,enharmonic equivalent to major triad above B,48,"Sonata No. 3 in B Minor, Op. 58, I. Allegro maestoso",Frédéric Chopin,2017
+505,519,A-incomplete dominant-seventh chord,71,"Sonata in B Minor, Op. 58",Frédéric Chopin,2004
+506,520,F#-incomplete minor-seventh chord,15,"Two Preludes from Op. 28, Nos. 15 and 24",Frédéric Chopin,2011
+507,521,D-minor triad,3,"Two Preludes from Op. 28, Nos. 15 and 24",Frédéric Chopin,2011
+508,522,D-major triad,102,Suite Op. 10,George Enescu,2006
+509,523,D-incomplete dominant-seventh chord,25,Chaconne in G,George Frideric Handel,2009
+510,524,D-incomplete dominant-seventh chord,20,"Chaconne in G Major, HWV 435",George Frideric Handel,2018
+511,525,Bb-whole-tone trichord,9,"Suite No. 2 in F Major, HWV 427 (Complete)",George Frideric Handel,2017
+512,526,A-incomplete dominant-seventh chord,41,Suite No. 3 in D Minor,George Frideric Handel,2004
+513,527,A-major triad,47,Suite No. 3 in D Minor,George Frideric Handel,2009
+514,528,A-minor triad,122,"Sonatina No. 6, BV284 “Fantasia da Camera super Carmen”",Georges Bizet / Ferruccio Busoni,2014
+515,529,E-minor triad,133,"Chanson Boheme de l'Opera ""Carmen"" by Georges Bizet",Georges Bizet / Moritz Moszkowski,2017
+516,530,E-major triad,106,Carmen Variations,Georges Bizet / Vladimir Horowitz,2017
+517,531,enharmonic equivalent to major triad above F,73,Rigoletto Parap.,Giuseppe Verdi / Franz Liszt,2006
+518,532,D-incomplete dominant-seventh chord,2,"Suite in C Major, Z. 666 (Complete)",Henry Purcell,2014
+519,533,G-minor triad,16,Asturias,Isaac Albéniz,2009
+520,534,enharmonic equivalent to major triad above Eb,9,"Evocacion from ""Iberia""",Isaac Albéniz,2009
+521,535,B-incomplete dominant-seventh chord,126,Iberia Book II,Isaac Albéniz,2006
+522,536,B-quartal trichord,11,"Iberia, Evocation, Triana",Isaac Albéniz,2004
+523,537,F#-minor triad,67,"Iberia, Evocation, Triana",Isaac Albéniz,2004
+524,538,C-incomplete major-seventh chord,117,Navarra,Isaac Albéniz,2009
+525,539,B-incomplete dominant-seventh chord,100,Triana from 'Iberia',Isaac Albéniz,2004
+526,540,A-whole-tone trichord,10,Tango,Isaac Albéniz / Leopold Godowsky,2009
+527,542,C-major triad,17,12 Variations on a Theme from a Menuet by Fischer,Johann Christian Fischer / Wolfgang Amadeus Mozart,2004
+528,544,D-major triad,12,"Chromatic Fantasy and Fugue in D Minor, BWV 903",Johann Sebastian Bach,2018
+529,545,D-major triad,19,"Chromatic Fantasy and Fugue in D Minor, BWV 903",Johann Sebastian Bach,2014
+530,546,D-major triad,32,"Chromatic Fantasy and Fugue in D Minor, BWV 903",Johann Sebastian Bach,2015
+531,549,E-major triad,22,"English Suite No. 2  in A Minor, BWV 807, I. Prelude",Johann Sebastian Bach,2015
+532,550,E-dominant seventh chord,19,"English Suite in A Minor, BWV 807",Johann Sebastian Bach,2018
+533,551,C#-minor triad,40,"English Suite in A Minor, BWV 807",Johann Sebastian Bach,2013
+534,552,G-minor triad,65,"English Suite no. 3 in G Minor, Prelude",Johann Sebastian Bach,2008
+535,553,D-incomplete dominant-seventh chord,25,French Suite No. 5 in G Major,Johann Sebastian Bach,2004
+536,554,G-major triad,15,French Suite No. 5 in G Major,Johann Sebastian Bach,2004
+537,555,D-incomplete dominant-seventh chord,9,French Suite No. 5 in G Major,Johann Sebastian Bach,2004
+538,556,F-major triad,47,"Italian Concerto in F Major, BWV 971 (Complete)",Johann Sebastian Bach,2014
+539,557,F-quartal trichord,23,"Italian Concerto, BWV 971",Johann Sebastian Bach,2018
+540,558,E-diminished triad,57,"Italian Concerto, BWV 971 (Complete)",Johann Sebastian Bach,2015
+541,559,A-incomplete minor-seventh chord,10,"Partita No. 1 in B-Flat Major, BWV 825 (Complete)",Johann Sebastian Bach,2014
+542,560,C-quartal trichord,6,"Partita No. 2 in C Minor, I. Sinfonia",Johann Sebastian Bach,2013
+543,561,C#-diminished triad,23,"Partita No. 4 in D Major, BWV 828",Johann Sebastian Bach,2018
+544,562,A-minor triad,28,Partita No. 6 in E Minor,Johann Sebastian Bach,2009
+545,563,G-major triad,14,"Partita in C Minor, BWV 826",Johann Sebastian Bach,2014
+546,564,G#-major-minor trichord,53,Prelude & Fugue,Johann Sebastian Bach,2006
+547,565,G-minor triad,10,Prelude & Fugue,Johann Sebastian Bach,2006
+548,566,Bb-quartal trichord,9,"Prelude & Fugue in B flat minor, Book I, BWV 867",Johann Sebastian Bach,2013
+549,567,D-incomplete dominant-seventh chord,28,"Prelude & Fugue in G Minor, WTK II",Johann Sebastian Bach,2004
+550,568,A-quartal trichord,15,"Prelude and Fugue in A Major, WTC I, BWV 864",Johann Sebastian Bach,2015
+551,569,E-major triad,10,"Prelude and Fugue in A Major, WTC II, BWV 888",Johann Sebastian Bach,2015
+552,570,B-diminished triad,52,"Prelude and Fugue in A Minor, WTC I, BWV 865",Johann Sebastian Bach,2011
+553,571,B-diminished triad,49,"Prelude and Fugue in A Minor, WTC I, BWV 865",Johann Sebastian Bach,2011
+554,572,A-major triad,39,"Prelude and Fugue in A Minor, WTC I, BWV 865",Johann Sebastian Bach,2017
+555,573,D-minor triad,5,"Prelude and Fugue in A Minor, WTC II,  BWV 889",Johann Sebastian Bach,2011
+556,574,A-major triad,3,"Prelude and Fugue in A Minor, WTC II, BWV 847",Johann Sebastian Bach,2013
+557,575,E-incomplete dominant-seventh chord,6,"Prelude and Fugue in A Minor, WTC II, BWV 889",Johann Sebastian Bach,2015
+558,576,F#-minor trichord,4,"Prelude and Fugue in A Minor, WTC II, BWV 889",Johann Sebastian Bach,2011
+559,577,F-major triad,2,"Prelude and Fugue in A Minor, WTC II, BWV 889",Johann Sebastian Bach,2017
+560,578,E-major triad,3,"Prelude and Fugue in A Minor, WTC II, BWV 889",Johann Sebastian Bach,2017
+561,579,E-major triad,3,"Prelude and Fugue in A Minor, WTC II, BWV 889",Johann Sebastian Bach,2017
+562,580,enharmonic equivalent to major triad above F,7,"Prelude and Fugue in B Major, WTC II, BWV 892",Johann Sebastian Bach,2011
+563,581,C#-minor triad,10,"Prelude and Fugue in B Major, WTC II, BWV 892",Johann Sebastian Bach,2017
+564,582,E-tritone-fourth,9,"Prelude and Fugue in B Minor, WTC II",Johann Sebastian Bach,2008
+565,583,E-tritone-fourth,23,"Prelude and Fugue in B Minor, WTC II",Johann Sebastian Bach,2008
+566,584,A-incomplete half-diminished seventh chord,14,"Prelude and Fugue in B Minor, WTC II, BWV 893",Johann Sebastian Bach,2013
+567,585,G#-incomplete dominant-seventh chord,18,"Prelude and Fugue in B-flat Minor, WTC I, BWV 867",Johann Sebastian Bach,2015
+568,586,Bb-quartal trichord,50,"Prelude and Fugue in B-flat Minor, WTC I, BWV 867",Johann Sebastian Bach,2013
+569,587,enharmonic equivalent to diminished triad above Eb,21,"Prelude and Fugue in B-flat Minor, WTC I, BWV 867",Johann Sebastian Bach,2013
+570,588,Bb-quartal trichord,45,"Prelude and Fugue in B-flat Minor, WTC I, BWV 867",Johann Sebastian Bach,2011
+571,589,G-incomplete dominant-seventh chord,13,"Prelude and Fugue in C Major, WTC  II, BWV 870",Johann Sebastian Bach,2015
+572,590,C-major triad,12,"Prelude and Fugue in C Major, WTC II, BWV 846",Johann Sebastian Bach,2014
+573,591,G-incomplete dominant-seventh chord,16,"Prelude and Fugue in C Major, WTC II, BWV 870",Johann Sebastian Bach,2015
+574,592,G-dominant seventh chord,7,"Prelude and Fugue in C Minor, WTC II, BWV 871",Johann Sebastian Bach,2011
+575,593,enharmonic equivalent to minor triad above F#,7,"Prelude and Fugue in C sharp major, WTC I, BWV 848",Johann Sebastian Bach,2011
+576,594,F#-incomplete dominant-seventh chord,7,"Prelude and Fugue in C-Sharp Major, WTC I, BWV 848",Johann Sebastian Bach,2011
+577,595,Eb-quartal trichord,6,"Prelude and Fugue in C-Sharp Major, WTC I, BWV 848",Johann Sebastian Bach,2011
+578,596,F#-incomplete dominant-seventh chord,6,"Prelude and Fugue in C-sharp Major, BWV 848",Johann Sebastian Bach,2013
+579,597,F#-incomplete dominant-seventh chord,9,"Prelude and Fugue in C-sharp Major, WTC I",Johann Sebastian Bach,2008
+580,598,enharmonic equivalent to minor triad above Bb,4,"Prelude and Fugue in C-sharp Major, WTC I",Johann Sebastian Bach,2008
+581,599,F#-incomplete dominant-seventh chord,8,"Prelude and Fugue in C-sharp Major, WTC I, BWV 848",Johann Sebastian Bach,2015
+582,600,enharmonic equivalent to major triad above F,6,"Prelude and Fugue in C-sharp Major, WTC I, BWV 848",Johann Sebastian Bach,2013
+583,601,enharmonic equivalent to major triad above C#,7,"Prelude and Fugue in C-sharp Major, WTC I, BWV 848",Johann Sebastian Bach,2017
+584,602,E-major triad,14,"Prelude and Fugue in D Major, Book II",Johann Sebastian Bach,2018
+585,603,D-major triad,21,"Prelude and Fugue in D Major, WTC II, BWV 874",Johann Sebastian Bach,2015
+586,604,A-major triad,22,"Prelude and Fugue in D Major, WTC II, BWV 874",Johann Sebastian Bach,2013
+587,605,G#-tritone-fourth,7,"Prelude and Fugue in D Major, WTC II, BWV 874",Johann Sebastian Bach,2011
+588,606,D-major triad,12,"Prelude and Fugue in D Major, WTC II, BWV 874",Johann Sebastian Bach,2011
+589,607,G-major triad,5,"Prelude and Fugue in D Minor, WTC I, BWV 851",Johann Sebastian Bach,2011
+590,608,enharmonic equivalent to minor triad above F#,7,"Prelude and Fugue in D-flat Major, WTC I, BWV 848",Johann Sebastian Bach,2011
+591,609,enharmonic equivalent to minor triad above Bb,3,"Prelude and Fugue in D-flat Major, WTC I, BWV 848",Johann Sebastian Bach,2017
+592,610,C#-minor triad,6,"Prelude and Fugue in E Major, WTC I, BWV 854",Johann Sebastian Bach,2013
+593,611,F#-minor triad,8,"Prelude and Fugue in E Major, WTC I, BWV 854",Johann Sebastian Bach,2013
+594,612,C#-minor triad,7,"Prelude and Fugue in E Major, WTC I, BWV 854",Johann Sebastian Bach,2011
+595,613,F#-minor triad,7,"Prelude and Fugue in E Major, WTC I, BWV 854",Johann Sebastian Bach,2017
+596,614,A-major triad,13,"Prelude and Fugue in E Major, WTC I, BWV 854",Johann Sebastian Bach,2017
+597,615,C#-minor triad,5,"Prelude and Fugue in E Major, WTC I, BWV 854  ",Johann Sebastian Bach,2015
+598,616,F-incomplete dominant-seventh chord,13,"Prelude and Fugue in E-flat Major, WTC I",Johann Sebastian Bach,2008
+599,617,enharmonic equivalent to diminished triad above A,17,"Prelude and Fugue in E-flat Major, WTC II, BWV 876",Johann Sebastian Bach,2011
+600,618,Eb-quartal trichord,9,"Prelude and Fugue in E-flat Major, WTC II, BWV 876",Johann Sebastian Bach,2017
+601,619,enharmonic equivalent to diminished triad above F,14,"Prelude and Fugue in E-flat Minor WTC I, BWV 853",Johann Sebastian Bach,2017
+602,620,enharmonic equivalent to diminished triad above F#,13,"Prelude and Fugue in E-flat Minor, WTC I, BWV 853",Johann Sebastian Bach,2015
+603,621,enharmonic equivalent to minor triad above Eb,16,"Prelude and Fugue in E-flat Minor, WTC I, BWV 853",Johann Sebastian Bach,2017
+604,622,enharmonic equivalent to minor triad above B,7,"Prelude and Fugue in E-flat Minor, WTC I, BWV 853",Johann Sebastian Bach,2017
+605,623,enharmonic equivalent to diminished triad above F#,8,"Prelude and Fugue in E-flat Minor, WTC I, BWV 853",Johann Sebastian Bach,2017
+606,624,D-incomplete dominant-seventh chord,7,"Prelude and Fugue in F Major, WTC I, BWV 856",Johann Sebastian Bach,2015
+607,625,C-major triad,13,"Prelude and Fugue in F Major, WTC II",Johann Sebastian Bach,2008
+608,626,C-major triad,11,"Prelude and Fugue in F Major, WTC II, BWV 880",Johann Sebastian Bach,2017
+609,627,C-incomplete dominant-seventh chord,5,"Prelude and Fugue in F Minor, WTC I",Johann Sebastian Bach,2008
+610,628,enharmonic equivalent to minor triad above C#,5,"Prelude and Fugue in F Minor, WTC I, BWV 857",Johann Sebastian Bach,2015
+611,629,C-incomplete dominant-seventh chord,12,"Prelude and Fugue in F Minor, WTC I, BWV 857",Johann Sebastian Bach,2015
+612,630,enharmonic equivalent to minor triad above F,2,"Prelude and Fugue in F Minor, WTC I, BWV 857",Johann Sebastian Bach,2011
+613,631,enharmonic equivalent to minor triad above C#,10,"Prelude and Fugue in F Minor, WTC I, BWV 857",Johann Sebastian Bach,2011
+614,632,enharmonic equivalent to minor triad above C#,7,"Prelude and Fugue in F Minor, WTC I, BWV 857",Johann Sebastian Bach,2017
+615,633,enharmonic equivalent to minor triad above C#,11,"Prelude and Fugue in F Minor, WTC I, BWV 857",Johann Sebastian Bach,2017
+616,634,C-major triad,11,"Prelude and Fugue in G Major, WTC I",Johann Sebastian Bach,2008
+617,635,C-major triad,11,"Prelude and Fugue in G Major, WTC I",Johann Sebastian Bach,2008
+618,636,C-major triad,8,"Prelude and Fugue in G Major, WTC I",Johann Sebastian Bach,2008
+619,637,C#-diminished triad,8,"Prelude and Fugue in G Major, WTC I",Johann Sebastian Bach,2008
+620,638,C-major triad,12,"Prelude and Fugue in G Major, WTC I, BWV 860",Johann Sebastian Bach,2015
+621,639,C-major triad,12,"Prelude and Fugue in G Major, WTC I, BWV 860",Johann Sebastian Bach,2013
+622,640,C-major triad,11,"Prelude and Fugue in G Major, WTC I, BWV 860",Johann Sebastian Bach,2017
+623,641,E-diminished triad,2,"Prelude and Fugue in G Major, WTC II, BWV 884",Johann Sebastian Bach,2017
+624,642,C-minor seventh chord,27,"Prelude and Fugue in G Minor, WTC II",Johann Sebastian Bach,2008
+625,643,D-incomplete dominant-seventh chord,24,"Prelude and Fugue in G Minor, WTC II,  BWV 885",Johann Sebastian Bach,2011
+626,644,C-incomplete dominant-seventh chord,43,"Prelude and Fugue in G Minor, WTC II, BWV 885",Johann Sebastian Bach,2015
+627,645,enharmonic equivalent to diminished triad above D,2,"Prelude and Fugue in G Minor, WTC II, BWV 885",Johann Sebastian Bach,2011
+628,646,Eb-major triad,29,"Prelude and Fugue in G-sharp Minor, WTC II, BWV 887",Johann Sebastian Bach,2015
+629,647,C-quartal trichord,59,Prelude from English Suite No. 3 in G Major,Johann Sebastian Bach,2013
+630,648,A-dominant seventh chord,21,"Prelude from English Suite No. 6 in D Minor, BWV 811",Johann Sebastian Bach,2013
+631,649,E-dominant seventh chord,12,"Prelude from the English Suite No. 1 in A Major, BWV 806",Johann Sebastian Bach,2011
+632,650,G-incomplete dominant-seventh chord,18,"Prelude from the English Suite No. 2 in A Minor, BWV 807",Johann Sebastian Bach,2011
+633,651,A-major-minor trichord,15,Prelude from the English Suite No. 6,Johann Sebastian Bach,2013
+634,652,C#-diminished triad,26,"Prelude from the English Suite No. 6 in D Minor, BWV 811",Johann Sebastian Bach,2011
+635,653,Eb-incomplete major-seventh chord,15,"Toccata from Partita No. 6 in E Minor, Missing Opening!!!!",Johann Sebastian Bach,2014
+636,654,C-major triad,19,"Toccata in C Minor, BWV 911",Johann Sebastian Bach,2018
+637,655,D-incomplete minor-seventh chord,42,"Toccata in C Minor, BWV 911",Johann Sebastian Bach,2014
+638,656,enharmonic to dominant seventh chord above B,10,"Toccata in E Minor, BWV 914",Johann Sebastian Bach,2008
+639,657,enharmonic equivalent to major triad above B,13,"Toccata in E Minor, BWV 914",Johann Sebastian Bach,2015
+640,658,C-incomplete minor-seventh chord,43,"""Sheep May Safely Graze""",Johann Sebastian Bach / Egon Petri,2013
+641,659,G-minor triad,53,"Sheep May Safely Graze, from Bach's Birthday Cantata",Johann Sebastian Bach / Egon Petri,2004
+642,660,Bb-major triad,2,"""Wachet  auf, ruft uns die Stimme' BWV 645",Johann Sebastian Bach / Ferruccio Busoni,2004
+643,661,A-major triad,113,Chaconne BWV1004,Johann Sebastian Bach / Ferruccio Busoni,2006
+644,662,G-quartal trichord,122,Chaconne in D Minor,Johann Sebastian Bach / Ferruccio Busoni,2014
+645,663,D-major triad,138,"Chaconne in D Minor, BWV 1004",Johann Sebastian Bach / Ferruccio Busoni,2004
+646,664,G-minor triad,65,Toccata in DMin.,Johann Sebastian Bach / Ferruccio Busoni,2006
+647,665,A-major triad,9,"Prelude and Fugue in A Minor, S.462/1",Johann Sebastian Bach / Franz Liszt,2011
+648,666,E-incomplete dominant-seventh chord,22,"Prelude and Fugue in A Minor, S.462/1",Johann Sebastian Bach / Franz Liszt,2011
+649,667,F-major triad,151,Var. on BACH,Johann Sebastian Bach / Franz Liszt,2006
+650,668,A-minor triad,16,"Jesu, Joy of Man’s Desiring, BWV 147",Johann Sebastian Bach / Myra Hess,2014
+651,669,enharmonic equivalent to diminished triad above Bb,104,"Soiree de Vienne, Op. 56 (Concert Paraphrase on the overture from Die Fledermaus)",Johann Strauss / Alfred Grünfeld,2015
+652,670,D-major triad,94,Fantasias Op. 116 (Selections),Johannes Brahms,2017
+653,671,D-major triad,51,Fantasien Op.116,Johannes Brahms,2006
+654,672,D-major triad,97,"Fantasies, Op. 116 No. 7 (Complete)",Johannes Brahms,2014
+655,673,enharmonic equivalent to minor triad above Bb,16,Intermezzo Op. 118 No. 6 in E-flat Minor,Johannes Brahms,2008
+656,674,A-minor triad,32,"Paganini Variations, Op. 35 Book 2",Johannes Brahms,2017
+657,675,A-minor triad,46,"Paganini Variations, Op. 35 Book II",Johannes Brahms,2008
+658,676,A-minor triad,114,"Paganini Variations, Op. 35 Books I and II",Johannes Brahms,2009
+659,677,enharmonic equivalent to minor triad above Bb,102,"Six Pieces for Piano, Op. 118",Johannes Brahms,2013
+660,678,F-major triad,98,"Sonata No. 3 in F Minor, Op. 5",Johannes Brahms,2009
+661,679,F-major triad,127,Sonata Op. 5,Johannes Brahms,2006
+662,680,F-major triad,92,"Sonata in F Minor, Op. 5",Johannes Brahms,2004
+663,681,enharmonic equivalent to minor triad above G#,67,"Sonata in F Minor, Op. 5",Johannes Brahms,2004
+664,682,Bb-major triad,93,"Sonata in F Minor, Op. 5",Johannes Brahms,2004
+665,683,F-incomplete dominant-seventh chord,115,"Variations and Fugue on the Theme of Händel, Op. 24",Johannes Brahms,2014
+666,684,Bb-major triad,144,"Variations and Fugue on the theme of Handel, Op. 24",Johannes Brahms,2018
+667,685,A-minor triad,48,"Variations on a Theme by Paganini, Op. 35 Book II",Johannes Brahms,2015
+668,686,E-major triad,37,"Variations on a Theme by Paganini, Op. 35 Book II",Johannes Brahms,2015
+669,687,E-major triad,53,"Variations on a Theme by Paganini, Op. 35, Book II",Johannes Brahms,2013
+670,688,A-minor triad,79,"Variations on a Theme by Paganini, Op. 35, Volumes 1 & 2",Johannes Brahms,2004
+671,689,A-minor triad,131,Variations on a theme by Paganini (Books I & II),Johannes Brahms,2004
+672,690,C-major triad,88,"Piano Sonata in C major, Hob. XVI:50 (Complete)",Joseph Haydn,2014
+673,691,enharmonic to dominant seventh chord above F#,30,Son. Hob. XVI:32,Joseph Haydn,2006
+674,692,Eb-major triad,53,Son. Hob. XVI:52,Joseph Haydn,2006
+675,693,Eb-major triad,49,Son. Hob. XVI:52,Joseph Haydn,2006
+676,694,enharmonic equivalent to minor triad above C#,17,"Sonata in A-Flat Major, Hob. XVI:46, I. Allegro moderato",Joseph Haydn,2017
+677,695,C-minor triad,14,"Sonata in A-flat Major, Hob. XVI: 46, I. Allegro moderato",Joseph Haydn,2015
+678,696,C#-Italian augmented sixth chord,21,"Sonata in A-flat Major, No. 31 Hob. XVI:46, 1st mov.",Joseph Haydn,2013
+679,697,Bb-major triad,17,"Sonata in B-flat Major, Hob.XVI:41",Joseph Haydn,2011
+680,698,C-major triad,117,"Sonata in C Major, Hob. XVI/50",Joseph Haydn,2009
+681,699,G-incomplete dominant-seventh chord,48,"Sonata in C Major, Hob. XVI: 50, I. Allegro",Joseph Haydn,2015
+682,700,D-minor triad,54,"Sonata in C Major, Hob. XVI: 50, I. Allegro",Joseph Haydn,2015
+683,701,C-major triad,38,"Sonata in C Major, Hob. XVI:48 (Complete)",Joseph Haydn,2014
+684,702,D-minor triad,44,"Sonata in C Major, Hob. XVI:48 (Complete)",Joseph Haydn,2014
+685,703,G-incomplete dominant-seventh chord,42,"Sonata in C Major, Hob. XVI:50",Joseph Haydn,2004
+686,704,F-major triad,8,"Sonata in C Major, Hob. XVI:50",Joseph Haydn,2004
+687,705,C-major triad,43,"Sonata in C Major, Hob. XVI:50",Joseph Haydn,2004
+688,706,G-incomplete dominant-seventh chord,53,"Sonata in C Major, Hob. XVI:50, 1st mov.",Joseph Haydn,2013
+689,707,D-minor triad,37,"Sonata in C Major, Hob. XVI:50, 1st mov.",Joseph Haydn,2013
+690,708,G-incomplete dominant-seventh chord,38,"Sonata in C Major, Hob. XVI:50, First Movement",Joseph Haydn,2008
+691,709,C-major triad,84,"Sonata in C major, Hob. XVI: 50",Joseph Haydn,2018
+692,710,F#-minor triad,6,"Sonata in E Major, Hob. XVI:31, First Movement",Joseph Haydn,2008
+693,711,Eb-major triad,52,"Sonata in E-flat Major, Hob. XVI: 52, I. Allegro",Joseph Haydn,2015
+694,712,Eb-major triad,48,"Sonata in E-flat Major, Hob. XVI:52, 1st mov.",Joseph Haydn,2013
+695,713,Eb-major triad,48,"Sonata in E-flat Major, Hob. XVI:52, First Movement",Joseph Haydn,2008
+696,714,G-minor trichord,50,"Sonata in E-flat Major, Hob. XVI:52, First Movement",Joseph Haydn,2011
+697,715,Eb-major triad,37,"Sonata in E-flat Major, Hob. XVI:52, First Movement",Joseph Haydn,2011
+698,716,Eb-major triad,48,"Sonata in E-flat major, Hob. XVI:52, I. Allegro",Joseph Haydn,2017
+699,717,C-major triad,29,"Sonata in F Major, Hob. XVI:23",Joseph Haydn,2018
+700,718,F-major triad,11,"Sonata in in F Major, Hob. XVI: 23, I. Allegro moderato",Joseph Haydn,2015
+701,719,enharmonic equivalent to diminished triad above E,37,In the Mists,Leoš Janáček,2018
+702,720,C#-minor triad,11,"In the Mists, I. Andante  ",Leoš Janáček,2015
+703,721,G#-incomplete dominant-seventh chord,66,"Piano Sonata 1. X. 1905 ""From the Street""",Leoš Janáček,2018
+704,722,enharmonic equivalent to minor triad above Eb,64,"Sonata 1.x.1905 ""On the Streets""",Leoš Janáček,2009
+705,723,Eb-major triad,29,Bagatelles Op126,Ludwig van Beethoven,2006
+706,724,Eb-major triad,74,"Bagatelles, Op. 126 (Complete)",Ludwig van Beethoven,2014
+707,725,Eb-major triad,41,"Bagtellen, Op.126",Ludwig van Beethoven,2009
+708,726,enharmonic equivalent to major triad above B,84,"Fantasia, Op. 77",Ludwig van Beethoven,2014
+709,727,D-minor triad,52,"Sonata No. 17 in D Minor, Op. 31 No. 2, 1st Movement",Ludwig van Beethoven,2011
+710,728,D-minor triad,39,"Sonata No. 17 in D Minor, Op. 31 No. 2, First Movement",Ludwig van Beethoven,2011
+711,729,D-minor triad,34,"Sonata No. 17 in D Minor, Op. 31 No. 2, First Movement",Ludwig van Beethoven,2011
+712,730,D-minor triad,42,"Sonata No. 17 in D minor, Op. 31 No. 2, 1st mov.",Ludwig van Beethoven,2013
+713,731,D-minor triad,27,"Sonata No. 17, Op. 31 No. 2 in D Minor ""Tempest"", I. Largo-Allegro",Ludwig van Beethoven,2017
+714,732,D-minor triad,33,"Sonata No. 17, Op. 31 No. 2 in D Minor ""Tempest"", I. Largo-Allegro",Ludwig van Beethoven,2017
+715,733,D-minor triad,31,"Sonata No. 17, Op. 31 No. 2 in D Minor ""Tempest"", I. Largo-Allegro",Ludwig van Beethoven,2017
+716,734,D-minor triad,39,"Sonata No. 17, Op. 31 No. 2 in D Minor ""Tempest"", I. Largo-Allegro",Ludwig van Beethoven,2017
+717,735,C-major triad,92,"Sonata No. 21 in  C Major, Op. 53",Ludwig van Beethoven,2009
+718,736,C-major triad,99,"Sonata No. 21 in C Major, Op. 53",Ludwig van Beethoven,2018
+719,737,G-major triad,91,"Sonata No. 21 in C Major, Op. 53, ""Waldstein"", First Movement",Ludwig van Beethoven,2011
+720,738,C-major triad,116,"Sonata No. 21 in C Major, Op. 53, ""Waldstein"", First Movement",Ludwig van Beethoven,2011
+721,739,C-major triad,70,"Sonata No. 21 in C Major, Op. 53, ""Waldstein"", First Movement",Ludwig van Beethoven,2011
+722,740,C-major triad,95,"Sonata No. 21 in C Major, Op. 53, 1st mov.",Ludwig van Beethoven,2013
+723,741,C-major triad,74,"Sonata No. 21 in C Major, Op. 53, First Movement",Ludwig van Beethoven,2008
+724,742,C-major triad,98,"Sonata No. 21 in C Major, Op. 53, I. Allegro con brio",Ludwig van Beethoven,2015
+725,743,C-major triad,93,"Sonata No. 21 in C Major, Op. 53, I. Allegro con brio",Ludwig van Beethoven,2015
+726,744,C-major triad,92,"Sonata No. 21 in C major, Op. 53, 1st mov.",Ludwig van Beethoven,2013
+727,745,C-major triad,103,"Sonata No. 21 in C major, Op. 53, “Waldstein,” I. Allegro con brio",Ludwig van Beethoven,2014
+728,746,C-major triad,100,"Sonata No. 21, Op. 53, ""Waldstein"", I. Allegro con brio",Ludwig van Beethoven,2017
+729,747,G-major triad,128,"Sonata No. 21, Op. 53, ""Waldstein"", I. Allegro con brio",Ludwig van Beethoven,2017
+730,748,C-major triad,123,"Sonata No. 21, Op. 53, ""Waldstein"", I. Allegro con brio",Ludwig van Beethoven,2017
+731,749,C-major triad,80,"Sonata No. 21, Op. 53, ""Waldstein"", I. Allegro con brio",Ludwig van Beethoven,2017
+732,750,G-major triad,115,"Sonata No. 21, Op. 53, ""Waldstein"", I. Allegro con brio",Ludwig van Beethoven,2017
+733,751,C-major triad,104,"Sonata No. 21, Op. 53, ""Waldstein"", I. Allegro con brio",Ludwig van Beethoven,2017
+734,752,C-major triad,115,"Sonata No. 23 in F Minor, Op. 57 ""Appassionata"", First Movement",Ludwig van Beethoven,2008
+735,753,enharmonic equivalent to minor triad above F,104,"Sonata No. 23 in F Minor, Op. 57 (Complete)",Ludwig van Beethoven,2015
+736,754,C-major triad,62,"Sonata No. 23 in F Minor, Op. 57, First Movement",Ludwig van Beethoven,2011
+737,755,enharmonic equivalent to minor triad above C,78,"Sonata No. 23 in F Minor, Op. 57, First Movement",Ludwig van Beethoven,2011
+738,756,enharmonic equivalent to minor triad above C,73,"Sonata No. 23 in F Minor, Op. 57, First Movement",Ludwig van Beethoven,2011
+739,757,C-major triad,86,"Sonata No. 23 in F Minor, Op. 57, First movement",Ludwig van Beethoven,2011
+740,758,C-major triad,69,"Sonata No. 23, Op. 57 in F Minor, ""Appassionata"", I. Allegro assai",Ludwig van Beethoven,2017
+741,759,enharmonic equivalent to major triad above Bb,54,"Sonata No. 24 in F-Sharp Major, Op. 78",Ludwig van Beethoven,2008
+742,760,F#-diminished triad,52,"Sonata No. 24 in F-sharp Major, Op. 78",Ludwig van Beethoven,2011
+743,761,enharmonic equivalent to major triad above F#,42,"Sonata No. 24 in F-sharp Major, Op. 78, First Movement",Ludwig van Beethoven,2008
+744,762,G#-German augmented sixth chord in third inversion,43,"Sonata No. 26 in 3-flat Major, Op. 81a (2nd & 3rd Movements)",Ludwig van Beethoven,2004
+745,763,G#-German augmented sixth chord,104,"Sonata No. 26 in 3-flat Major, Op. 81a (2nd & 3rd Movements)",Ludwig van Beethoven,2004
+746,764,G#-German augmented sixth chord,67,"Sonata No. 26 in E-Flat Major, Op. 81a, ""Les Adiex"", First Movement",Ludwig van Beethoven,2011
+747,765,Eb-major triad,42,"Sonata No. 26 in E-Flat Major, Op. 81a, ""Les Adiex"", First Movement",Ludwig van Beethoven,2011
+748,766,G#-German augmented sixth chord in second inversion,49,"Sonata No. 26 in E-flat Major, Op. 81a, I. Das Lebewohl. Adagio - Allegro",Ludwig van Beethoven,2015
+749,767,A-major triad,129,"Sonata No. 28 in A Major, Op. 101 (Complete)",Ludwig van Beethoven,2014
+750,768,A-major triad,122,"Sonata No. 28 in A Major, Op. 101 (Complete)",Ludwig van Beethoven,2014
+751,769,A-major triad,108,"Sonata No. 28 in A Major, Op. 101 (Complete)",Ludwig van Beethoven,2014
+752,770,E-major triad,53,"Sonata No. 30 in E Major, Op. 109",Ludwig van Beethoven,2018
+753,771,enharmonic equivalent to major triad above G#,120,"Sonata No. 31 In A-flat Major, Op. 110",Ludwig van Beethoven,2018
+754,772,enharmonic equivalent to major triad above G#,99,"Sonata No. 31 in A-Flat Major, Op. 110 (Complete)",Ludwig van Beethoven,2014
+755,773,enharmonic equivalent to major triad above G#,111,"Sonata No. 31 in A-flat Major, Op. 110",Ludwig van Beethoven,2018
+756,774,enharmonic equivalent to major triad above Eb,117,"Sonata No. 31 in A-flat Major, Op. 110 (Complete)",Ludwig van Beethoven,2014
+757,775,E-major-minor trichord,34,"Sonata No. 31 in A-flat Major, Op. 110, First movement",Ludwig van Beethoven,2011
+758,776,G-incomplete dominant-seventh chord,59,"Sonata No. 32 in C Minor, Op. 111",Ludwig van Beethoven,2009
+759,777,C-major triad,137,"Sonata No. 32 in C Minor, Op. 111 (Complete)",Ludwig van Beethoven,2014
+760,778,C-major triad,58,"Sonata No. 32 in C minor, Op. 111",Ludwig van Beethoven,2018
+761,779,Bb-major triad,63,"Sonata No. 4 in E-flat Major, Op. 7, 1st mov.",Ludwig van Beethoven,2013
+762,780,G#-German augmented sixth chord,53,"Sonata No. 4 in E-flat Major, Op. 7, 1st mov.",Ludwig van Beethoven,2013
+763,781,G#-German augmented sixth chord,64,"Sonata No. 4 in E-flat Major, Op. 7, First Movement",Ludwig van Beethoven,2011
+764,782,Eb-major triad,85,"Sonata No. 4 in E-flat Major, Op. 7, I. Allegro molto e con brio",Ludwig van Beethoven,2015
+765,783,Eb-major triad,67,"Sonata No. 4 in E-flat Major, Op. 7, I. Allegro molto e con brio",Ludwig van Beethoven,2017
+766,784,Bb-major triad,51,"Sonata No. 4 in E-flat Major, Op. 7, I. Allegro molto e con brio",Ludwig van Beethoven,2017
+767,785,A-major triad,64,"Sonata No. 7 in D Major, Op. 10 No. 3",Ludwig van Beethoven,2018
+768,786,D-major triad,29,"Sonata No. 7 in D Major, Op. 10 No. 3, 1st mov.",Ludwig van Beethoven,2013
+769,787,D-major triad,45,"Sonata No. 7 in D Major, Op. 10 No. 3, 1st mov.",Ludwig van Beethoven,2013
+770,788,D-major triad,38,"Sonata No. 7 in D Major, Op. 10 No. 3, First Movement",Ludwig van Beethoven,2011
+771,789,D-perfect-fourth major tetrachord,15,"Sonata No. 7, Op. 10 No. 3 in D Major, I. Presto",Ludwig van Beethoven,2017
+772,790,D-major-minor trichord,22,"Sonata No. 7, Op. 10 No. 3 in D Major, I. Presto",Ludwig van Beethoven,2017
+773,791,G-major triad,59,Sonata Op. 10/3,Ludwig van Beethoven,2006
+774,792,A-major triad,101,Sonata Op. 101,Ludwig van Beethoven,2006
+775,793,enharmonic equivalent to major triad above G#,98,Sonata Op. 110,Ludwig van Beethoven,2006
+776,794,F-major triad,86,Sonata Op. 54 in F Major,Ludwig van Beethoven,2004
+777,795,F#-diminished triad,62,Sonata Op. 78,Ludwig van Beethoven,2006
+778,796,Eb-major triad,47,"Sonata Op. 81 No. 26, 'Les Adieux'",Ludwig van Beethoven,2004
+779,797,Bb-major triad,135,"Sonata Op. 81 No. 26, 'Les Adieux'",Ludwig van Beethoven,2004
+780,798,C-minor triad,43,"Sonata in A-flat, Op. 110",Ludwig van Beethoven,2004
+781,799,enharmonic equivalent to major triad above G#,118,"Sonata in A-flat, Op. 110",Ludwig van Beethoven,2004
+782,800,enharmonic equivalent to major triad above G#,103,"Sonata in A-flat, Op. 110",Ludwig van Beethoven,2009
+783,801,C-major triad,59,"Sonata in C Major, Op. 53 'Waldstein'",Ludwig van Beethoven,2004
+784,802,E-incomplete dominant-seventh chord,48,"Sonata in D Minor, Op. 31 No. 2 ""Tempest""",Ludwig van Beethoven,2018
+785,803,D-minor triad,47,"Sonata in D minor, Op. 31, No. 2",Ludwig van Beethoven,2004
+786,804,F#-diminished triad,24,"Sonata in D minor, Op. 31, No. 2",Ludwig van Beethoven,2004
+787,805,F#-incomplete minor-seventh chord,62,"Sonata in E Major, Op. 109",Ludwig van Beethoven,2018
+788,806,G#-German augmented sixth chord,187,"Sonata in E-flat Major, Op. 81a",Ludwig van Beethoven,2009
+789,807,C-minor triad,62,"Thirty-Two Variaions in C Minor, WoO80",Ludwig van Beethoven,2011
+790,808,G-major triad,80,"Thirty-Two Variaions in C Minor, WoO80",Ludwig van Beethoven,2011
+791,809,G-major triad,86,"Thirty-Two Variaions in C Minor, WoO80",Ludwig van Beethoven,2011
+792,810,D-incomplete minor-seventh chord,79,"Thirty-Two Variaions in C Minor, WoO80",Ludwig van Beethoven,2011
+793,811,G-major triad,82,"Thirty-Two Variations  in C Minor, WoO 80",Ludwig van Beethoven,2015
+794,812,C-minor triad,77,"Thirty-Two Variations in C Minor, WoO 80",Ludwig van Beethoven,2008
+795,813,G-major triad,94,"Thirty-Two Variations in C Minor, WoO 80",Ludwig van Beethoven,2008
+796,814,C-minor triad,81,"Thirty-Two Variations in C Minor, WoO 80",Ludwig van Beethoven,2008
+797,815,C-minor triad,72,"Thirty-Two Variations in C Minor, WoO 80",Ludwig van Beethoven,2008
+798,816,C-minor triad,67,"Thirty-Two Variations in C Minor, WoO 80",Ludwig van Beethoven,2008
+799,817,C-minor triad,80,"Thirty-Two Variations in C Minor, WoO 80",Ludwig van Beethoven,2015
+800,818,C-minor triad,84,"Thirty-Two Variations in C Minor, WoO 80",Ludwig van Beethoven,2015
+801,819,C-minor triad,73,"Thirty-Two Variations in C Minor, WoO 80",Ludwig van Beethoven,2015
+802,820,G-major triad,79,"Thirty-Two Variations in C Minor, WoO 80",Ludwig van Beethoven,2013
+803,821,C-minor triad,93,"Thirty-Two Variations in C Minor, WoO 80",Ludwig van Beethoven,2013
+804,822,C-minor triad,69,"Thirty-Two Variations in C Minor, WoO 80",Ludwig van Beethoven,2013
+805,823,C-minor triad,61,"Thirty-Two Variations in C Minor, WoO 80",Ludwig van Beethoven,2017
+806,824,C-minor triad,75,"Thirty-Two Variations in C Minor, WoO 80",Ludwig van Beethoven,2017
+807,825,G-major triad,79,"Thirty-Two Variations in C Minor, WoO 80",Ludwig van Beethoven,2017
+808,826,G-major triad,78,"Thirty-Two Variations in C Minor, WoO 80",Ludwig van Beethoven,2017
+809,827,C-minor triad,73,"Thirty-Two Variations in C Minor, WoO 80",Ludwig van Beethoven,2017
+810,828,G-major triad,95,"Thirty-Two Variations in C Minor, WoO 80",Ludwig van Beethoven,2017
+811,829,C-minor triad,74,"Thirty-Two Variations in C Minor, WoO 80",Ludwig van Beethoven,2017
+812,830,C-minor triad,88,"Thirty-Two Variations in C minor, WoO 80",Ludwig van Beethoven,2013
+813,831,G-incomplete dominant-seventh chord,82,"Thirty-Two Variations in C minor, WoO 80    ",Ludwig van Beethoven,2015
+814,832,C-minor triad,84,"Thirty-Two Variations in C minor, WoO 80    ",Ludwig van Beethoven,2015
+815,833,Bb-major triad,30,Lark,Mikhail Glinka / Mily Balakirev,2008
+816,834,enharmonic equivalent to diminished triad above F#,21,Lark,Mikhail Glinka / Mily Balakirev,2008
+817,835,enharmonic equivalent to minor triad above F,7,"In the Garden, Etude-Idyll",Mily Balakirev,2011
+818,836,Eb-major triad,148,Pictures at an E,Modest Mussorgsky,2006
+819,837,Eb-major triad,120,Pictures at an E,Modest Mussorgsky,2006
+820,838,Eb-major triad,154,Pictures at an Exhibition,Modest Mussorgsky,2004
+821,839,Eb-major triad,110,Pictures at an Exhibition,Modest Mussorgsky,2004
+822,840,Eb-major triad,121,Pictures at an Exhibition,Modest Mussorgsky,2018
+823,841,Eb-major triad,122,Pictures at an Exhibition,Modest Mussorgsky,2018
+824,842,Bb-major triad,50,"Sonata Bb, Op. 24, No. 2",Muzio Clementi,2009
+825,843,Bb-major triad,48,Sonata Op. 24/2,Muzio Clementi,2006
+826,844,D-major triad,16,"Sonata Op. 25 No. 5 in F-sharp Minor, First Movement",Muzio Clementi,2011
+827,845,Bb-major triad,39,"Sonata in B-flat Major, Op.24, No. 2",Muzio Clementi,2009
+828,846,enharmonic equivalent to major triad above F,32,Sonata in F# Min,Muzio Clementi,2006
+829,847,enharmonic equivalent to major triad above F,12,"Sonata in F-sharp minor, op. 25 no. 5, 1st mov.",Muzio Clementi,2013
+830,848,A-major triad,65,Etude No. 6 in A Minor,Niccolò Paganini / Franz Liszt,2008
+831,849,Bb-major triad,16,"Fairy Tale in D Minor, Op. 54",Nikolai Medtner,2009
+832,850,E-incomplete dominant-seventh chord,101,"Fairy Tales Op. 51 No. 1, 2 and No. 3",Nikolai Medtner,2017
+833,851,C-minor triad,155,"Sonata Tragica, Op. 39, No. 5",Nikolai Medtner,2014
+834,852,D-incomplete dominant-seventh chord,90,"Three Fairy Tales ""Skazki"" from Op. 34",Nikolai Medtner,2018
+835,853,B-minor triad,95,Two Fairy Tales,Nikolai Medtner,2006
+836,854,F-incomplete major-seventh chord,14,The Flight of the Bunble-Bee,Nikolai Rimsky-Korsakov / Sergei Rachmaninoff,2008
+837,855,G-minor triad,4,Pavan,Orlando Gibbons,2018
+838,856,enharmonic equivalent to minor triad above C,23,Ramble on the Last Love - Duet,Percy Grainger,2018
+839,857,C-minor triad,114,Dumka,Pyotr Ilyich Tchaikovsky,2006
+840,858,C-minor triad,99,"Dumka, Op. 59",Pyotr Ilyich Tchaikovsky,2008
+841,859,C-minor triad,100,"Dumka, Op.59",Pyotr Ilyich Tchaikovsky,2009
+842,860,D-major triad,31,Meditation,Pyotr Ilyich Tchaikovsky,2006
+843,861,Bb-major triad,91,Russian Scherzo Op. 1,Pyotr Ilyich Tchaikovsky,2008
+844,862,C-quartal trichord,72,"The Seasons, Op. 37a (Selections)",Pyotr Ilyich Tchaikovsky,2014
+845,863,G-major triad,76,"Andante Maestoso from ""Nutcracker Suite""",Pyotr Ilyich Tchaikovsky / Mikhail Pletnev,2008
+846,864,A-diminished triad,312,Concert Suite from the Ballet Nutcracker,Pyotr Ilyich Tchaikovsky / Mikhail Pletnev,2004
+847,865,G-major triad,42,Concert Suite from the Nutcracker,Pyotr Ilyich Tchaikovsky / Mikhail Pletnev,2004
+848,866,C-major triad,59,"Intermezzo from ""Nutcracker Suite""",Pyotr Ilyich Tchaikovsky / Mikhail Pletnev,2008
+849,867,G-major triad,62,"March from ""Nutcracker Suite",Pyotr Ilyich Tchaikovsky / Mikhail Pletnev,2008
+850,868,B-minor triad,303,Nutcracker Suite,Pyotr Ilyich Tchaikovsky / Mikhail Pletnev,2006
+851,869,G-major triad,7,Lullaby,Pyotr Ilyich Tchaikovsky / Sergei Rachmaninoff,2006
+852,870,G-major triad,11,"Lullaby Op. 16, No. 1",Pyotr Ilyich Tchaikovsky / Sergei Rachmaninoff,2004
+853,871,C-incomplete dominant-seventh chord,50,ABEGG Op. 1,Robert Schumann,2015
+854,872,F-major triad,62,ABEGG Variations Op. 1,Robert Schumann,2011
+855,873,G-major triad,42,"ABEGG Variations, Op. 1",Robert Schumann,2008
+856,874,F-major triad,32,"ABEGG Variations, Op. 1",Robert Schumann,2013
+857,875,C-incomplete dominant-seventh chord,55,"ABEGG Variations, Op. 1",Robert Schumann,2013
+858,876,C-incomplete dominant-seventh chord,72,"ABEGG Variations, Op. 1",Robert Schumann,2013
+859,877,A-phrygian trichord,50,"ABEGG Variations, Op. 1",Robert Schumann,2011
+860,878,enharmonic equivalent to major triad above G#,225,"Carnaval, Op. 9",Robert Schumann,2004
+861,879,enharmonic equivalent to major triad above G#,156,"Carnaval, Op. 9",Robert Schumann,2004
+862,880,enharmonic equivalent to major triad above C,104,"Carnaval, Op. 9",Robert Schumann,2018
+863,881,enharmonic equivalent to major triad above G#,146,"Carnaval, Op. 9",Robert Schumann,2014
+864,882,C-major triad,60,Fantasie Op. 17,Robert Schumann,2018
+865,883,C-major triad,45,Fantasie Op. 17,Robert Schumann,2018
+866,884,F-major triad,143,"Fantasy Pieces, Op. 12",Robert Schumann,2004
+867,885,C#-diminished triad,64,"Fantasy in C Major, Op. 17",Robert Schumann,2018
+868,886,D-major triad,50,Kreisleriana,Robert Schumann,2006
+869,887,Bb-major triad,28,"Kreisleriana, Op. 16",Robert Schumann,2004
+870,888,G-minor triad,27,"Kreisleriana, Op. 16",Robert Schumann,2004
+871,889,A-diminished triad,28,"Kreisleriana, Op. 16",Robert Schumann,2009
+872,890,G-incomplete dominant-seventh chord,33,"Kreisleriana, Op. 16 (1st edition) (Complete)",Robert Schumann,2014
+873,891,A-diminished triad,31,"Kreisleriana, Op. 16 (Complete)",Robert Schumann,2014
+874,892,enharmonic equivalent to major triad above F#,95,Sonata F# Minor,Robert Schumann,2006
+875,893,enharmonic equivalent to major triad above Bb,201,"Sonata No. 1 in F-Sharp Minor, Op. 11 (Complete)",Robert Schumann,2014
+876,894,enharmonic equivalent to major triad above Bb,218,"Sonata No. 1 in F-sharp Minor, Op. 11",Robert Schumann,2009
+877,895,enharmonic equivalent to major triad above F,209,Symphonic Etudes,Robert Schumann,2006
+878,896,enharmonic equivalent to major triad above F,252,Symphonic Etudes,Robert Schumann,2006
+879,897,enharmonic equivalent to major triad above F,299,Symphonic Etudes,Robert Schumann,2006
+880,898,enharmonic equivalent to major triad above F,301,Symphonic Etudes Op. 13,Robert Schumann,2018
+881,899,enharmonic equivalent to major triad above C#,285,Symphonic Etudes Op. 13 (with Posthumous variations),Robert Schumann,2018
+882,900,enharmonic equivalent to major triad above F,336,"Symphonic Etudes, Op. 13",Robert Schumann,2009
+883,901,enharmonic equivalent to major triad above C#,259,"Symphonic Etudes, Op. 13",Robert Schumann,2014
+884,902,enharmonic equivalent to major triad above G#,303,"Symphonic Etudes, Op. 13",Robert Schumann,2015
+885,903,enharmonic equivalent to major triad above G#,202,"Symphonic Etudes, Op. 13 (with Posthumous Etudes)",Robert Schumann,2014
+886,904,enharmonic equivalent to diminished triad above Bb,23,Widmung,Robert Schumann / Franz Liszt,2008
+887,905,E-minor triad,13,"Moment Musical, Op. 16, No.4",Sergei Rachmaninoff,2004
+888,906,E-minor triad,17,Moment Musicaux Op. 16 No. 4 in E Minor,Sergei Rachmaninoff,2017
+889,907,enharmonic equivalent to diminished triad above F,13,"Moment Musicaux, Op. 16 No. 3 in B Minor",Sergei Rachmaninoff,2018
+890,908,E-minor triad,15,"Moment Musicaux, Op. 16 No. 4 in E Minor",Sergei Rachmaninoff,2018
+891,909,enharmonic equivalent to minor triad above F,5,"Moment Musicaux, Op. 16 No. 5",Sergei Rachmaninoff,2013
+892,910,C-major triad,44,Moments Musicaux,Sergei Rachmaninoff,2006
+893,911,Bb-minor-augmented tetrachord,15,"Moments Musicaux, Op. 16",Sergei Rachmaninoff,2011
+894,912,G#-incomplete dominant-seventh chord,18,"Moments Musicaux, Op. 16",Sergei Rachmaninoff,2011
+895,913,E-diminished triad,11,"Moments Musicaux, Op. 16",Sergei Rachmaninoff,2011
+896,914,E-minor triad,10,"Moments Musicaux, Op. 16",Sergei Rachmaninoff,2011
+897,915,A-incomplete major-seventh chord,3,"Moments Musicaux, Op. 16",Sergei Rachmaninoff,2011
+898,916,C-major triad,30,"Moments Musicaux, Op. 16",Sergei Rachmaninoff,2011
+899,917,C-whole-tone trichord,11,Prelude Op. 23 No. 4 in D Major,Sergei Rachmaninoff,2015
+900,918,Bb-major triad,50,"Prelude Op. 23, No. 2",Sergei Rachmaninoff,2004
+901,919,C#-diminished triad,16,Prelude Op. 23/4,Sergei Rachmaninoff,2006
+902,920,G-major triad,6,"Prelude in D Major, Op. 23, No. 4",Sergei Rachmaninoff,2014
+903,921,D-major triad,13,"Prelude in D Major, Op. 23, No. 4",Sergei Rachmaninoff,2013
+904,922,G-minor triad,156,"Preludes Op. 23, Nos. 2, 4 and 5",Sergei Rachmaninoff,2018
+905,923,enharmonic equivalent to minor triad above F,73,Sonata No. 2 in B-Flat Minor Op. 36 (1913),Sergei Rachmaninoff,2011
+906,924,C#-phrygian trichord,20,Sonata No. 2 in B-Flat Minor Op. 36 (1913),Sergei Rachmaninoff,2011
+907,925,A-quartal trichord,2,Sonata No. 2 in B-Flat Minor Op. 36 (1913),Sergei Rachmaninoff,2011
+908,926,Bb-major triad,95,Sonata No. 2 in B-Flat Minor Op. 36 (1913),Sergei Rachmaninoff,2011
+909,927,enharmonic equivalent to minor seventh chord above F,134,Sonata No. 2 in B-flat Minor,Sergei Rachmaninoff,2004
+910,928,E-minor triad,114,"Sonata No. 2 in B-flat Minor, Op. 36",Sergei Rachmaninoff,2004
+911,929,Bb-major triad,131,"Sonata No. 2 in B-flat Minor, Op. 36 (1913)",Sergei Rachmaninoff,2009
+912,930,Bb-major triad,93,"Sonata No. 2 in B-flat Minor, Op.36",Sergei Rachmaninoff,2009
+913,931,Bb-major triad,143,"Sonata No. 2 in B-flat Minor, Opus 36",Sergei Rachmaninoff,2004
+914,932,Bb-major triad,155,Sonata Op. 36,Sergei Rachmaninoff,2006
+915,933,Bb-major triad,111,"Sonata in B-flat Minor, Op.36",Sergei Rachmaninoff,2009
+916,934,enharmonic equivalent to diminished triad above B,11,Flight of B.B.,Sergei Rachmaninoff / György Cziffra,2006
+917,935,Bb-major triad,64,Italian Polka,Sergei Rachmaninoff / Vyacheslav Gryaznov,2009
+918,936,C-minor triad,37,Fantasy in C Min,Wolfgang Amadeus Mozart,2006
+919,937,C-major triad,67,"Nine Variations, K. 264",Wolfgang Amadeus Mozart,2009
+920,938,G-minor triad,40,"Nine variations on a minuet by Duport, K537",Wolfgang Amadeus Mozart,2018
+921,939,C-minor triad,31,Sonata K. 457,Wolfgang Amadeus Mozart,2006
+922,940,A-chromatic trimirror,23,"Sonata K. 457 in C minor, I. Allegro molto",Wolfgang Amadeus Mozart,2015
+923,941,A-diminished triad,14,"Sonata in B-flat Major, K. 281, First Movement",Wolfgang Amadeus Mozart,2011
+924,942,C-incomplete dominant-seventh chord,12,"Sonata in B-flat Major, K. 570, 1st mov.",Wolfgang Amadeus Mozart,2013
+925,943,Bb-major triad,22,"Sonata in B-flat Major, K.281",Wolfgang Amadeus Mozart,2009
+926,944,B-diminished triad,11,"Sonata in C Major, K 330, I. Allegro moderato",Wolfgang Amadeus Mozart,2015
+927,945,C-minor triad,17,"Sonata in C Minor K457, First Movement",Wolfgang Amadeus Mozart,2008
+928,946,C-minor triad,26,"Sonata in C Minor, K. 457",Wolfgang Amadeus Mozart,2018
+929,947,enharmonic equivalent to diminished triad above D,8,"Sonata in C Minor, K. 457, 1st mov.",Wolfgang Amadeus Mozart,2013
+930,948,D-major triad,39,Sonata in D Major K576,Wolfgang Amadeus Mozart,2018
+931,949,enharmonic equivalent to diminished triad above G#,30,"Sonata in D Major, K 284, First Movement",Wolfgang Amadeus Mozart,2008
+932,950,D-whole-tone trichord,16,"Sonata in D Major, K 576, First Movement",Wolfgang Amadeus Mozart,2008
+933,951,A-major triad,29,"Sonata in D Major, K. 284, First Movement",Wolfgang Amadeus Mozart,2011
+934,952,D-major triad,62,"Sonata in D Major, K. 311",Wolfgang Amadeus Mozart,2009
+935,953,G-major triad,30,"Sonata in D Major, K. 576 (Complete)",Wolfgang Amadeus Mozart,2014
+936,954,enharmonic equivalent to diminished triad above G#,17,"Sonata in D Major, K. 576, I - Allegro",Wolfgang Amadeus Mozart,2013
+937,955,D-major triad,10,"Sonata in D Major, K. 576, II - Adagio",Wolfgang Amadeus Mozart,2013
+938,956,D-major triad,90,"Sonata in D Major, K.311",Wolfgang Amadeus Mozart,2009
+939,957,C#-tritone-fourth,18,"Sonata in D-Major, K. 311, First Movement",Wolfgang Amadeus Mozart,2011
+940,958,G-incomplete minor-seventh chord,53,Sonata in F K332,Wolfgang Amadeus Mozart,2006
+941,959,C-dominant seventh chord,67,"Sonata in F Major, K 332 (Complete)",Wolfgang Amadeus Mozart,2015
+942,960,C-major triad,44,"Sonata in F Major, K 332 (Complete)",Wolfgang Amadeus Mozart,2015
+943,961,F-major triad,18,"Sonata in F Major, K280",Wolfgang Amadeus Mozart,2004
+944,962,G-major triad,17,"Twelve Variations, K179 (189a)",Wolfgang Amadeus Mozart,2004
