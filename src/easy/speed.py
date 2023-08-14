@@ -2,7 +2,6 @@ import numpy as np
 from pandas import DataFrame
 from matplotlib import pyplot as plt
 from datetime import timedelta
-import pandas as pd
 from tqdm import tqdm
 
 
@@ -136,8 +135,8 @@ def resample_notes_df_by_start_time(notes: DataFrame,
 
 def speed_notes_task(time_unit=1):
     """Main function for creating a chart of time vs. speed"""
-    dataset = \
-        load_dataset("roszcz/internship-midi-data-science", split="train")
+    dataset = load_dataset("roszcz/internship-midi-data-science",
+                           split="train")
 
     current_record = 1
 
@@ -174,7 +173,7 @@ def find_fastest_interval(notes: DataFrame, time_unit=1, window_size=15):
     """
     Finds the fastest note interval within a rolling window of specified size.
     """
-    
+
     # Resample the note data using the specified time unit
     notes = resample_notes_df_by_start_time(notes, time_unit)
 
@@ -192,18 +191,16 @@ def find_fastest_interval(notes: DataFrame, time_unit=1, window_size=15):
 
 
 def find_fastest_interval_task(time_unit=1, window_size=15):
-    dataset = \
-        load_dataset("roszcz/maestro-v1", split="train")
-    
+    dataset = load_dataset("roszcz/maestro-v1", split="train")
 
     fastest_interval_ind = None
     fastest_interval_value = 0
-    
+
     fastests_intervals = []
     current_record = 0
 
     for record in tqdm(dataset):
-        notes = DataFrame(record['notes'])
+        notes = DataFrame(record["notes"])
 
         record_fastest_interval = find_fastest_interval(notes)
 
@@ -211,7 +208,13 @@ def find_fastest_interval_task(time_unit=1, window_size=15):
         record_ind_max = record_fastest_interval.idxmax()
         record_value_max = record_fastest_interval[record_ind_max]
 
-        fastests_intervals.append({'record_number': current_record, 'ind': record_ind_max, 'value': record_value_max})
+        fastests_intervals.append(
+            {
+                "record_number": current_record,
+                "ind": record_ind_max,
+                "value": record_value_max,
+            }
+        )
 
         if record_value_max > fastest_interval_value:
             fastest_interval_value = record_value_max
@@ -220,14 +223,11 @@ def find_fastest_interval_task(time_unit=1, window_size=15):
         current_record += 1
         fastests_intervals_df = DataFrame(fastests_intervals)
         fastests_intervals_df.to_csv("fastests_records.csv")
-        
 
     # Print maximum of rolling mean and index
     print("Index with Maximum Rolling Mean:", fastest_interval_ind)
     print("The Maximum Rolling Mean:", fastest_interval_value)
 
 
-
 if __name__ == "__main__":
     find_fastest_interval_task()
-
