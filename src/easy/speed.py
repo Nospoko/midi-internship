@@ -213,6 +213,9 @@ def find_fastest_interval_task(time_unit=1, window_size=15):
                 "record_number": current_record,
                 "ind": record_ind_max,
                 "value": record_value_max,
+                "title": record['title'],
+                "composer": record['composer'],
+                "year": record['year'],
             }
         )
 
