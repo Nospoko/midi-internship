@@ -1,6 +1,6 @@
-from datasets import load_dataset
 import pandas as pd
 import matplotlib.pyplot as plt
+from datasets import load_dataset
 
 
 def plot_speed_time(df: pd.DataFrame) -> plt.Figure:
@@ -34,10 +34,7 @@ def plot_speed_time(df: pd.DataFrame) -> plt.Figure:
     fig, ax = plt.subplots()
     ax.plot(x, y)
     # ax.scatter(x, y)
-    ax.set(xlabel='Time (' + time_unit + ')', ylabel='Number of notes',
-           title='Number of notes over time') \
- \
-        # show the plot
+    ax.set(xlabel="Time (" + time_unit + ")", ylabel="Number of notes", title="Number of notes over time")  # show the plot
 
     return fig
 
